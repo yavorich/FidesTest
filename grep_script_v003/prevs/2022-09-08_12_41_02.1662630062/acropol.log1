@@ -1,0 +1,2434 @@
+Parsing args
+Command line args (including defaults):
+Namespace(input_file='in/acropol.j2cm', output_file='out.txt', search_config='search.ini', config='/z/opt/grep_script_v003/config.ini', weights='weights.csv', begin=None, progress_file='/z/opt/grep_script_v003/.last_success_md5.tmp.txt')
+Check if input file exists (expected: true)
+Check if output file exists (expected: false)
+WARNING Output file exists - will be overwriten
+Parsing general config
+Separator: ¬~; Columns: ['md5', 'url', 'short_snippet', 'long_snippet']; Index column: md5
+Parsing search config
+suffix_max_padding: 10; column_to_search: short_snippet; search_mode: regex
+Dubai 10 True
+turbans .{10;50} some 10 True
+some some 5 False
+suff2 12 False
+Words: {'Dubai': '10', 'turbans .{10;50} some': '10'}
+Suffixes: {'some some': '5', 'suff2': '12'}
+Suffixes weights:
+{'some some': '5', 'suff2': '12'}
+READY
+Reading line 1/345
+Splitting to columns
+{'md5': '982c8af003a27c55071da30c5d87674c', 'url': 'http://moskvavkredit.ru/scripts/redirect.php?idb=306&sc=a9e6c6c78edb983010d7c56dcc9c0419&url=http://www.acropol.ru', 'short_snippet': 'Яндекс Банк — финансовые продукты для бизнеса и ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 2/345
+Splitting to columns
+{'md5': '0d2291e13c8d285bea101b94f7ff45e2', 'url': 'https://www.booking.com/hotel/tr/acropol-beach.ru.html', 'short_snippet': 'Acropol Beach Hotel, Анталья - обновленные цены 2022 года', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 3/345
+Splitting to columns
+{'md5': '8c2b0ae9c6ddff668b189ea0b2b6d13c', 'url': 'https://www.reuters.com/article/russia-yandex-banking-idUKR4N2MF01D', 'short_snippet': "Russia's Yandex to buy Acropol bank in move to develop financial services", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 4/345
+Splitting to columns
+{'md5': '89c50ad469eaaa8c9ffa0be64ca1d6b7', 'url': 'https://pegast.ru/agency/hotels/acropol-beach-3632', 'short_snippet': 'Acropol Beach 3* - Турция, Анталья - Отели | Пегас Туристик', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 5/345
+Splitting to columns
+{'md5': '4c488773e51e238da7e3e95b7f74c7d4', 'url': 'https://www.johnlewis.com/persona-by-marina-rinaldi-acropol-stripe-jumper-blue/p6017894', 'short_snippet': 'Persona by Marina Rinaldi Acropol Stripe Jumper, Blue - John Lewis', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 6/345
+Splitting to columns
+{'md5': 'ce1a910210a8ea1ff0f66057479d5ecc', 'url': 'http://acropol.lk/', 'short_snippet': 'Acropol.lk-Halal Food in Colombo 3 and Family Restaurant in Kolpity ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 7/345
+Splitting to columns
+{'md5': 'b2ab2c72f9e185a92ad289a0fe39edef', 'url': 'https://finance.yahoo.com/amphtml/news/russias-yandex-buy-acropol-bank-080001004.html', 'short_snippet': "Russia's Yandex to buy Acropol bank in move to develop financial services", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 8/345
+Splitting to columns
+{'md5': '5487ae159370feb420282f184d83b915', 'url': 'https://coatings.specialchem.com/product/r-allnex-acropol-63-893', 'short_snippet': 'ACROPOL™ 63-893 - allnex - datasheet - Coatings Ingredients', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 9/345
+Splitting to columns
+{'md5': '703fb97f5d7b75a0f47a52e38e27eb90', 'url': 'https://acropol-geo.ru/form-terms', 'short_snippet': 'Условия обработки персональных данных посетителей сайта ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 10/345
+Splitting to columns
+{'md5': '7e06b481aa696ec4c4e387fb7cca0266', 'url': 'https://moovitapp.com/index/amp/en/public_transit-Acropol-Serres-site_60172784-5439', 'short_snippet': 'How to get to Acropol in Serres by Bus? - Moovit', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 11/345
+Splitting to columns
+{'md5': '1b07788411ffe54767a94973e0cc3910', 'url': 'https://www.rome2rio.com/s/Athens-Airport-ATH/Brown-Acropol-by-Brown-Hotels-Athens', 'short_snippet': 'Athens Airport (ATH) to Brown Acropol by Brown Hotels ... - Rome2Rio', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 12/345
+Splitting to columns
+{'md5': '39ab4daa5fbecd481de737df1696cf00', 'url': 'https://books.google.ru/books?id=V-c8AAAAYAAJ&pg=PA601&lpg=PA601&dq=acropol&source=bl&ots=ybGqn3MTcW&sig=ACfU3U379mW-wAPt4q8krS3I5UlaLuwn_w&hl=en&sa=X&ved=2ahUKEwjpkr34uvb3AhXCFXcKHRoQDMUQ6AF6BQjfAhAC', 'short_snippet': 'Bd. Literaturgeschichte des Mittelalters', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 13/345
+Splitting to columns
+{'md5': 'fe0e640e5dac14a3b3d9b76192fb9f5b', 'url': 'https://www.enfsolar.com/acropol-renewable-energy-solutions', 'short_snippet': 'Acropol Renewable Energy Solutions S.A.E | Solar System Installers | Egypt', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 14/345
+Splitting to columns
+{'md5': '110c303d227cd9155f4b826879e44380', 'url': 'https://www.onlinetours.ru/oteli/turkey/fatih/glk-premier-acropol-suites-spa?adults=2&depart_city_id=20001&duration_from=5&duration_to=14&kids=0&start_from=2022-04-07&start_to=2022-04-28&ticket_strategy[]=include', 'short_snippet': 'GLK Premier Acropol Suites &amp; Spa - Отели Турции - Onlinetours', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 15/345
+Splitting to columns
+{'md5': '33743a1858faaac2a0c74a26c825ff97', 'url': 'https://www.crunchbase.com/organization/acropol-bank', 'short_snippet': 'Acropol Bank - Crunchbase Company Profile &amp; Funding', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 16/345
+Splitting to columns
+{'md5': '840eead1462dbb5f24c5a3109d0e067a', 'url': 'https://www.tradeinn.com/dressinn/ru/munich-acropol-205-trainers/136124884/p', 'short_snippet': 'Munich Acropol 205 Trainers | Dressinn - Tradeinn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 17/345
+Splitting to columns
+{'md5': '0ec3a67c8361606cc0f11c97c79a8213', 'url': 'https://allnex.com/en/product/3a30fd35-4456-4f05-ba2f-113bead2fa71/acropol-63-079', 'short_snippet': 'ACROPOL™ 63-079 - allnex', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 18/345
+Splitting to columns
+{'md5': '49ffcf238d7568c682a2dbd1bba9fdf7', 'url': 'https://www.bigblue.rs/sr/hotel/turska/antalija/acropol-beach-hotel', 'short_snippet': 'ACROPOL BEACH HOTEL I ANTALIJA I Leto 2022 - Big Blue', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 19/345
+Splitting to columns
+{'md5': 'c3df7402175d7aa12feea6021b173989', 'url': 'https://www.greeka.com/epirus/parga/accommodation/parga-acropol/', 'short_snippet': 'Acropol Hotel in Town, Parga | Greeka', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 20/345
+Splitting to columns
+{'md5': '0ff1cc28ff7a82106d68127f240d0550', 'url': 'https://www.xo.gr/profile/profile-909056956/en/', 'short_snippet': 'ACROPOL HOTEL Hotel | Larissa (Center) | +302410536315 | xo.gr', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 21/345
+Splitting to columns
+{'md5': '0f5dcb43909ec79fc83323f97daa071c', 'url': 'https://acropol-beach-hotel.antalyacoast.com/en/', 'short_snippet': 'ACROPOL BEACH HOTEL, ANTALYA', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 22/345
+Splitting to columns
+{'md5': '986df7e400c7075a0008058e67781110', 'url': 'https://allnexcom.azurewebsites.net/en/product/1fc07a17-0590-4231-a880-f83c7ac50161/ACROPOL-63-893-1', 'short_snippet': 'Product Finder | allnex – The Resin Company', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 23/345
+Splitting to columns
+{'md5': 'b7a2582eb30b662fc87840681f5f4a30', 'url': 'https://www.anextour.com/tours/turkey/acropol-beach', 'short_snippet': 'Отель Acropol Beach в Турции: фото, отзывы, отдых ANEX Tour №  ', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 24/345
+Splitting to columns
+{'md5': '0665138c474d58eae05054b2b97f2bd8', 'url': 'https://www.acropolfamilyrestaurant.com/', 'short_snippet': 'Acropol Family Restaurant', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 25/345
+Splitting to columns
+{'md5': '90a645aca30f4cc0e0ce9406fa8379b1', 'url': 'https://books.google.ru/books?id=c1AmCAAAQBAJ&pg=PT345&lpg=PT345&dq=acropol&source=bl&ots=a36d_q4ONa&sig=ACfU3U3mBDXimTzEVT4G8pLvxzm4wVN4vg&hl=en&sa=X&ved=2ahUKEwjpkr34uvb3AhXCFXcKHRoQDMUQ6AF6BQjbAhAC', 'short_snippet': 'The Rough Guide to Tanzania', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 26/345
+Splitting to columns
+{'md5': '506a8280f1ecd0f97eba1b8b1717b162', 'url': 'https://books.google.ru/books?id=fWxLAQAAMAAJ&pg=PA172&lpg=PA172&dq=acropol&source=bl&ots=aWFgh6jud5&sig=ACfU3U2xBGHnzho4lZKuNSu4KFvy5y0pQg&hl=en&sa=X&ved=2ahUKEwjpkr34uvb3AhXCFXcKHRoQDMUQ6AF6BQjeAhAC', 'short_snippet': 'Host Bibliographic Record for Boundwith Item Barcode 30112107997485', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 27/345
+Splitting to columns
+{'md5': '0117090f0cc1ba9b7e35d1b46cdd4ba7', 'url': 'https://www.tourister.ru/world/europe/greece/city/hotels/4479161', 'short_snippet': 'Brown Acropol, a member of Brown Hotels - Туристер.Ру', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 28/345
+Splitting to columns
+{'md5': '2ffdd9d09e7296f825cbf4c08f2c18b6', 'url': 'https://www.grubhub.com/restaurant/acropol-family-restaurant-1170-starkey-road-largo/1550390', 'short_snippet': 'Acropol Family Restaurant - 1170 Starkey Road Largo - Grubhub', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 29/345
+Splitting to columns
+{'md5': '19c34704317e08428f82cc79ee663163', 'url': 'https://cairosales.com/en/manufacturer/acropol.html', 'short_snippet': 'Prices &amp; features of Acropol products in Egypt. Free Delivery - Cairo Sales', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 30/345
+Splitting to columns
+{'md5': '2d470d83f34a25ea3385d3381640df51', 'url': 'https://irecommend.ru/content/acropol-beach-hotel-3-turtsiya-antaliya', 'short_snippet': 'Acropol Beach Hotel 3*, Турция, Анталия | отзывы - IRecommend', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 31/345
+Splitting to columns
+{'md5': 'a198bdcd1a66039cf5c8f37a55265a1f', 'url': 'https://www.grupaura.com.tr/en/acropol-bodrum/', 'short_snippet': 'Acropol Bodrum | Grup Aura', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 32/345
+Splitting to columns
+{'md5': '3e731f413384eea05587c0da74f73256', 'url': 'https://m.facebook.com/acropol.lk/', 'short_snippet': 'Acropol Restaurant - Home - Colombo, Sri Lanka - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 33/345
+Splitting to columns
+{'md5': '3e3d481e948600454136645eea9ca4ba', 'url': 'https://acropolparga.reserve-online.net/', 'short_snippet': 'Acropol Hotel Parga Greece | Book Online', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 34/345
+Splitting to columns
+{'md5': '743277637fb750a47a0b5a4dbc098688', 'url': 'https://www.coral.ru/hotels/turkey/glk-premier-acropol-suites-spa-istanbul/', 'short_snippet': 'Отель GLK PREMIER ACROPOL SUITES &amp; SPA Special (Стамбул ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 35/345
+Splitting to columns
+{'md5': '2248f570ae5b5083beddf5900c1759a3', 'url': 'https://www.hrs.com/en/hotel/brown-acropol-by-brown-hotels/a-1018622/', 'short_snippet': 'Brown Acropol by Brown Hotels Athens book favourably with HRS', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 36/345
+Splitting to columns
+{'md5': '889cb617f306e49f35865d6364d9374e', 'url': 'https://www.serreshotelacropol.gr/', 'short_snippet': 'ΞΕΝΟΔΟΧΕΙΟ ΣΕΡΡΕΣ ΑΙΘΟΥΣΕΣ ΣΥΝΕΔΡΙΩΝ SPA SAUNAS ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 37/345
+Splitting to columns
+{'md5': '684512a32cb8be6f08e02525d35135f3', 'url': 'https://www.hepsiburada.com/acropol', 'short_snippet': 'Acropol Modelleri, Fiyatları ve Ürünleri - Hepsiburada', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 38/345
+Splitting to columns
+{'md5': '44fb66eabd138c2fb81b737e562f630a', 'url': 'https://www.hotels.com/ho1275096928/brown-acropol-a-member-of-brown-hotels-athens-greece/', 'short_snippet': 'Book Brown Acropol, a member of Brown Hotels in Athens | Hotels.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 39/345
+Splitting to columns
+{'md5': '6b488cf100ae95da3d42722db0145085', 'url': 'https://www.instagram.com/brownacropol/', 'short_snippet': 'Brown Acropol (@brownacropol) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 40/345
+Splitting to columns
+{'md5': '263ca67dd812a282a31f4cdfea0c9554', 'url': 'https://www.tripadvisor.com/Hotel_Review-g297962-d939863-Reviews-Acropol_Beach_Hotel-Antalya_Turkish_Mediterranean_Coast.html', 'short_snippet': 'ACROPOL BEACH HOTEL $62 ($̶7̶8̶) - Prices &amp; Reviews', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 41/345
+Splitting to columns
+{'md5': 'c8e42110b546f333fa87793ecff04c68', 'url': 'https://www.ubereats.com/lk/store/acropol-restaurant/89AYwcGnS-6Vz7kRmmTDfg', 'short_snippet': 'Acropol Restaurant Delivery | Colombo | Uber Eats', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 42/345
+Splitting to columns
+{'md5': '35634daffabad0e059e6a2e7d910136a', 'url': 'https://www.bgoperator.ru/price.shtml?flt=100411293179&tid=26&code=102625894610&action=shw', 'short_snippet': 'Acropol Beach Hotel 3 - Библио-Глобус', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 43/345
+Splitting to columns
+{'md5': 'a88e0e4cf15b73791a4809195c62823c', 'url': 'https://www.nhs.trade/polymerlab-acropol-viroc-sealer-5-litre-co-vrcs-5l.html', 'short_snippet': 'POLYMERLAB ACROPOL VIROC SEALER 5 LITRE - NHS Trade', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 44/345
+Splitting to columns
+{'md5': '39a1d08d7e26109e6e2c67090a84619c', 'url': 'https://acropolport.com/en/', 'short_snippet': 'Acropol Port Bodrum', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 45/345
+Splitting to columns
+{'md5': '1b53edc9a41c87f1f09f8ced84a00937', 'url': 'https://www.zomato.com/colombo/acropol-restaurant-kollupitiya-colombo-03/menu?amp=1', 'short_snippet': 'Acropol Restaurant Menu - Kollupitiya, Colombo 03 - Zomato', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 46/345
+Splitting to columns
+{'md5': '9cbf7e4ae53ff1ecee0a0fd37467f658', 'url': 'https://www.expedia.com/Athens-Hotels-Brown-Acropol.h39815529.Hotel-Information', 'short_snippet': 'Brown Acropol, a member of Brown Hotels - Expedia', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 47/345
+Splitting to columns
+{'md5': '7a42ee0aba5167a0356d7d7416dda44f', 'url': 'https://www.linkedin.com/company/acropol', 'short_snippet': 'Acropol Renewable Energy Solutions S.A.E | LinkedIn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 48/345
+Splitting to columns
+{'md5': '0c1e9d47ee54b4fc8c9fc9dd48ca7593', 'url': 'https://acropolvintage.gr/menu/?lang=en', 'short_snippet': 'Το Μενού μας - ACROPOL Vintage Cafe', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 49/345
+Splitting to columns
+{'md5': '943cff375ac154bf6039260267e1a4ae', 'url': 'https://www.agoda.com/acropol-hotel/hotel/serrai-gr.html', 'short_snippet': 'Acropol Hotel, Serrai | 2022 Updated Prices, Deals - Agoda', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 50/345
+Splitting to columns
+{'md5': 'ac64f44306cc4dfba38c6bd5465b2de4', 'url': 'https://www.newmoney.gr/roh/palmos-oikonomias/ependyseis/leon-avigkad-brown-hotels-h-platia-omonias-tha-gini-to-neo-soho-pics/amp/', 'short_snippet': 'Λέον Αβιγκάδ (Brown Hotels): «H πλατεία Ομονοίας θα γίνει το νέο Soho', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 51/345
+Splitting to columns
+{'md5': '0486e9d6e50236502f33a5a28bd9b67f', 'url': 'https://interfax.com/newsroom/top-stories/71696/', 'short_snippet': 'Yandex agrees to buy Acropol bank for 1.1 bln rubles to obtain ... - Interfax', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 52/345
+Splitting to columns
+{'md5': '5a72aae0f0297b61dc7c71ddb4a1bec6', 'url': 'https://brownacropolbybrownhotels.com-hotel.com/en/', 'short_snippet': 'Brown Acropol, a member of Brown Hotels - Hotel WebSite', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 53/345
+Splitting to columns
+{'md5': '05b375267b064d1e16155c3438d824ff', 'url': 'https://books.google.ru/books?id=n4lnAAAAcAAJ&pg=PA542&lpg=PA542&dq=acropol&source=bl&ots=fISCo__tm9&sig=ACfU3U11P9_bCTBCRnLnThOVvS7LUYNUXQ&hl=en&sa=X&ved=2ahUKEwjpkr34uvb3AhXCFXcKHRoQDMUQ6AF6BQjaAhAC', 'short_snippet': 'Leonardi Offerhaus Compendium historiæ universalis in quo res ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 54/345
+Splitting to columns
+{'md5': '9386dd304e981da520291e3454faffec', 'url': 'https://www.meetings-conventions.com/Meeting-Event-Venues/Athens/Convention-Hotel/Brown-Acropol-p55270443', 'short_snippet': 'Brown Acropol - Athens, Greece Meeting Rooms &amp; Event Space', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 55/345
+Splitting to columns
+{'md5': 'ed167a7a5b3e9bec363f75485a1067dc', 'url': 'https://www.cian.ru/company/17817/', 'short_snippet': 'Acropol - агентство недвижимости, контакты, объекты ... - Циан', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 56/345
+Splitting to columns
+{'md5': '1fb48084162d398040856ce55eaca09a', 'url': 'https://www.kayak.com/Serres-Hotels-Acropol.386828.ksp', 'short_snippet': 'Acropol $45. Sérres Hotel Deals &amp; Reviews - KAYAK', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 57/345
+Splitting to columns
+{'md5': '97252257ef606b06c360abe16b8da26b', 'url': 'https://ostrovok.ru/amp/vhotel/turkey/istanbul/mid7471795/best_western_premier_acropol_suites__spa/', 'short_snippet': 'GLK PREMIER Acropol Suites &amp; Spa 4* Турция, Стамбул - Ostrovok.ru', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 58/345
+Splitting to columns
+{'md5': 'a72f3c957c1518ffe4bfc668918fafd8', 'url': 'https://acropol.meva.net/contact/', 'short_snippet': 'Contact - Acropol – Your Formwork and Construction Site Supplier in ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 59/345
+Splitting to columns
+{'md5': 'ab72732dd4e91b51f126fd6c9fe54ba2', 'url': 'https://m.startribune.com/obituary-acropol-inn-owner-aris-apostolou-launched-a-st-paul-landmark/246725061/', 'short_snippet': 'Obituary: Acropol Inn owner Aris Apostolou launched a St. Paul ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 60/345
+Splitting to columns
+{'md5': '3060833d2d7d5a39b18aecd3f5be8923', 'url': 'https://www.panteon.ru/hotels/greece/afiny/acropol-classical/', 'short_snippet': 'Отдых в отеле Acropol Classical 4* (Афины/Греция) - Panteon.ru', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 61/345
+Splitting to columns
+{'md5': 'c171e38036afed76ac67e3de19978f32', 'url': 'https://www.chambres-hotes.fr/chambres-hotes_acropol_pythagorion_h1238688_en.htm', 'short_snippet': 'Acropol, Bed &amp; Breakfast Pythagorion', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 62/345
+Splitting to columns
+{'md5': '0beaa7efff26503c6b3175e5745375e1', 'url': 'https://www.grhotels.gr/en/listing/brown-acropol-hotel/', 'short_snippet': 'BROWN ACROPOL HOTEL', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 63/345
+Splitting to columns
+{'md5': 'ef7e649a0c8adb99444717081d859c8e', 'url': 'https://m.travelata.ru/turkey/resorts/antalya/hotels/acropol-beach-3-08be83f.html', 'short_snippet': 'Туры в отель Acropol Beach 3*, Турция, Анталья - Travelata', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 64/345
+Splitting to columns
+{'md5': 'd67041852c4f5c79233de18fb77bf22d', 'url': 'https://acropol-eg.com/', 'short_snippet': 'أكروبول لحلول الطاقة المتجددة – Acropol for renewable energy', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 65/345
+Splitting to columns
+{'md5': '2c6e08e1187db28bb7aeaaa9815212b4', 'url': 'https://www.exibart.com/beni-culturali/marmi-del-partenone-il-regno-unito-apre-al-dialogo-con-la-grecia/amp/', 'short_snippet': 'Marmi del Partenone: il Regno Unito apre al dialogo con la Grecia - Exibart', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 66/345
+Splitting to columns
+{'md5': 'c6e36d523d43aea3f73dda5e79687f41', 'url': 'http://www.yamu.lk/kamu/acropol/', 'short_snippet': 'Acropol - Yamu.lk', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 67/345
+Splitting to columns
+{'md5': '62c88cb7a8e946a821de029b7fc6f75a', 'url': 'https://www.hospitalitynet.org/announcement/41006807.html', 'short_snippet': 'Brown Acropol Is Now Open - Hospitality Net', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 68/345
+Splitting to columns
+{'md5': '89a561401e50c33ac1d8a6e87eb346ec', 'url': 'https://www.samaraintour.ru/3817', 'short_snippet': 'Athens Acropol Hotel, 4* - Самараинтур', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 69/345
+Splitting to columns
+{'md5': '9d744f8c1b37f052c3cd31dc094a925b', 'url': 'https://www.poehalisnami.ua/hotels/turciya/antaliya/acropol-beach-h', 'short_snippet': 'Acropol Beach Hotel, 3 - Отели Анталии - Поехали с нами', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 70/345
+Splitting to columns
+{'md5': '3643f9dcff8ef936dd35850787389996', 'url': 'http://www.acropolbeach.net/', 'short_snippet': 'Acropol Beach', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 71/345
+Splitting to columns
+{'md5': 'f9271aafdc68bb986a83e272989d42e7', 'url': 'https://acropol-rpk.ru/', 'short_snippet': 'Изготовление наружной рекламы, производство и монтаж в Москве', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 72/345
+Splitting to columns
+{'md5': '8c6575f19f4fa51ea9fa491aeab52778', 'url': 'https://m.youtube.com/watch?v=RFeDkzj3YVM', 'short_snippet': 'AcropolRD realiza encuentro con Director Reserva de La Policía', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 73/345
+Splitting to columns
+{'md5': 'd0c64ef03663fa809ac2fd56ae48e338', 'url': 'https://level.travel/hotels/29148-Acropol_Beach_Hotel?adults=2&from=Moscow-RU&kids=&nights=7&start_date=2022-05-16', 'short_snippet': 'Туры в Acropol Beach Hotel - Level.Travel', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 74/345
+Splitting to columns
+{'md5': 'f5c231ca882b70d241ca22b3bbf3f039', 'url': 'https://www.trip.com/hotels/athens-hotel-detail-50267220/brown-acropol/', 'short_snippet': 'Brown Acropol by Brown Hotels-Athens Updated ... - Trip.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 75/345
+Splitting to columns
+{'md5': '882b4aaa19d079125f4fea1a58c728f7', 'url': 'https://acropolofbodrum.com/', 'short_snippet': 'Acropol of Bodrum Beach Hotel: Ana Sayfa', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 76/345
+Splitting to columns
+{'md5': '381028a2a8c611394331068b83c094bf', 'url': 'https://traveldir.co/refer/hotel/turkey/istanbul/acropol/', 'short_snippet': 'GLK Premier Acropol Suites &amp; Spa Hotel Sultanahmet Istanbul', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 77/345
+Splitting to columns
+{'md5': 'b1d55909a592e5161b8622428d17b045', 'url': 'https://www.retailbankerinternational.com/news/russia-yandex-acquire-acropol-bank/', 'short_snippet': "Russia's Yandex signs deal to acquire Acropol Bank - Retail Banker ...", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 78/345
+Splitting to columns
+{'md5': 'ec94fabf3c6258115726f3f100ceb28a', 'url': 'https://m.yelp.com/biz/acropol-family-restaurant-largo', 'short_snippet': 'ACROPOL FAMILY RESTAURANT - 57 Photos &amp; 97 Reviews - Yelp', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 79/345
+Splitting to columns
+{'md5': '5662279020fe3f5a1ed96411722555e2', 'url': 'https://www.flo.com.tr/spor-ayakkabi?cinsiyet=kadin', 'short_snippet': 'Kadın Spor Ayakkabı Modelleri ve Fiyatları - Flo', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 80/345
+Splitting to columns
+{'md5': '417f265055f12e44fb7e85687a72e954', 'url': 'https://planetofhotels.com/en/greece/mythimna/acropol', 'short_snippet': 'Acropol in Mythimna, Greece - 60 reviews, price from $39', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 81/345
+Splitting to columns
+{'md5': '6ddac32b110cbc51a5a58bba0f3c28b5', 'url': 'https://books.google.ru/books?id=yhj4eJsBroAC&pg=PA1163&lpg=PA1163&dq=acropol&source=bl&ots=dBnXngpd2Q&sig=ACfU3U2X5v8eHuE629K1jYiyHhciU2b7-g&hl=en&sa=X&ved=2ahUKEwjpkr34uvb3AhXCFXcKHRoQDMUQ6AF6BQjZAhAC', 'short_snippet': 'Corpus scriptorum historiae byzantinae: Nicephori Gregorae ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 82/345
+Splitting to columns
+{'md5': 'a33ebce0e61896259fd3ffed04618b07', 'url': 'https://www.turpravda.com/tr/antalija/Acropol_Beach_Hotel-h18569.html', 'short_snippet': 'Acropol Beach Hotel 3* – Reviews - Antalya - TurPravda', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 83/345
+Splitting to columns
+{'md5': '36500d54f0154d94809ac80916090c57', 'url': 'https://www.booking.com/hotel/gr/brown-acropol.ru.html', 'short_snippet': 'Brown Acropol, a member of Brown Hotels, Афины - Booking.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 84/345
+Splitting to columns
+{'md5': '4ac003849c831d9042e8cfaaf29fe5ff', 'url': 'https://books.google.ru/books?id=oF1NAAAAcAAJ&pg=PA491&lpg=PA491&dq=acropol&source=bl&ots=e8rMcG1SSU&sig=ACfU3U0xXpjakSwZGKh-Fus9jMnPr9IBzg&hl=en&sa=X&ved=2ahUKEwjpkr34uvb3AhXCFXcKHRoQDMUQ6AF6BQjdAhAC', 'short_snippet': 'Allgemeine Weltgeschichte: 14', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 85/345
+Splitting to columns
+{'md5': '640b44907aee830a251a0c58b6c2a385', 'url': 'https://fr.m.wikipedia.org/wiki/ACROPOL', 'short_snippet': 'ACROPOL - Wikipédia', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 86/345
+Splitting to columns
+{'md5': 'c9b3c6d360c2765532b3e2bb391e971e', 'url': 'https://www.jet2holidays.com/greece/parga/parga-town/acropol-hotel', 'short_snippet': 'Acropol Hotel - Parga Town hotels | Jet2holidays', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 87/345
+Splitting to columns
+{'md5': '9ea1c318b3881e683eb4c14caf83458f', 'url': 'https://books.google.ru/books?id=DVQAF1kmDxUC&pg=PA724&lpg=PA724&dq=acropol&source=bl&ots=l7n9c6KHVk&sig=ACfU3U15lo63wRySUo2auryI9wwMUXocdQ&hl=en&sa=X&ved=2ahUKEwjpkr34uvb3AhXCFXcKHRoQDMUQ6AF6BQjcAhAC', 'short_snippet': 'Nikephorou tou Gregora Rhomaike historia. Nicephori Gregorae ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 88/345
+Splitting to columns
+{'md5': 'd8fe8da0993c0f9a72b6d8a1ac334521', 'url': 'https://www.acropolplaka.com/en/', 'short_snippet': 'Acropol Plaka Εστιατόρια Πλάκα', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 89/345
+Splitting to columns
+{'md5': 'd197cf41831fe5ea373a1107781f010e', 'url': 'https://www.samaraintour.ru/3988', 'short_snippet': 'Acropol, 5* - Самараинтур', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 90/345
+Splitting to columns
+{'md5': 'd55738f6a257563fff3b3e366a1930de', 'url': 'https://www.google.com/maps/d/viewer?mid=1ADmymslT5cQhUgAMgq0VLQM4lBM&ie=UTF8&t=m&oe=UTF8&msa=0', 'short_snippet': 'Acropol Beach Hotel - Google My Maps', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 91/345
+Splitting to columns
+{'md5': '7c1735ca18f09752b936f511d9e60c33', 'url': 'https://tophotels.ru/hotel/al11597/reviews', 'short_snippet': 'Acropol Beach 3 - TopHotels.', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 92/345
+Splitting to columns
+{'md5': '08bd337884705f4f62406ad40e035cd8', 'url': 'https://brownhotels.com/athens/acropol', 'short_snippet': 'Brown Acropol Athens - Retro chic at its finest!', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 93/345
+Splitting to columns
+{'md5': '236dd9c95ab297002880f24d16157d75', 'url': 'https://www.otpusk.com/hotel/92424-Brown_Acropol', 'short_snippet': 'Отпуск.com ⛱️ Brown Acropol 4* Греция, Афины', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 94/345
+Splitting to columns
+{'md5': '68586da4550f7e2150fb5922a5775b31', 'url': 'http://www.acropolhotel.com.gr/', 'short_snippet': 'Acropol Boutique Hotel – Parga Greece', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 95/345
+Splitting to columns
+{'md5': 'd3216fb1cc2b9aef697db838f6802f15', 'url': 'https://www.tez-tour.com/hotel.html?id=29148', 'short_snippet': 'acropol beach hotel 3 - Анталия - Tez Tour', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 96/345
+Splitting to columns
+{'md5': '97821607d5a3bfe8fa9ac580dce451dc', 'url': 'https://www.doordash.com/store/acropol-family-restaurant-largo-244413/', 'short_snippet': 'Acropol Family Restaurant Delivery &amp; Takeout | 1170 Starkey Road Largo', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 97/345
+Splitting to columns
+{'md5': '3ce94289d58805ab32a2e8e22d3a2fe5', 'url': 'https://www.editus.lu/en/acropol-luxembourg-sa-rodange-338977', 'short_snippet': 'Acropol Luxembourg SA - Contractors Rodange | Editus', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 98/345
+Splitting to columns
+{'md5': '94b59b6d9996996acd04af3f09275d6c', 'url': 'https://m.101hotels.com/turkey/antalya/acropol_beach_hotel.html', 'short_snippet': 'Отель Acropol Beach Hotel Анталия, Турция - 101Hotels.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 99/345
+Splitting to columns
+{'md5': 'c3c137da5b66ce15bb4104e12d7e6263', 'url': 'https://acropol.meva.net/', 'short_snippet': 'Acropol – Construction Industry Supplier in Belgium and ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 100/345
+Splitting to columns
+{'md5': '66354bbe3bfe9f22a3ddfaa8fa94b0dc', 'url': 'http://www.acropolfamilyrestaurant.com/locationsfooter/largo/2-uncategorised.html', 'short_snippet': 'Largo - Acropol Family Restaurant', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 101/345
+Splitting to columns
+{'md5': 'eaacec1473b3c1256262740ec104c2e2', 'url': 'https://br-fr.facebook.com/Acropol-%CE%91%CE%BA%CF%81%CE%BF%CF%80%CE%BF%CE%BB-1813586665523903/photos/?ref=page_internal', 'short_snippet': 'Acropol-Ακροπολ | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 102/345
+Splitting to columns
+{'md5': 'da4f33a139be54156c93dd78551c8d6b', 'url': 'https://m.facebook.com/pages/category/Transportation-Service/Acropol-517868231583044/photos/', 'short_snippet': 'Acropol - Photos | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 103/345
+Splitting to columns
+{'md5': 'fcca56f119aa5eb3e8330a5657efe995', 'url': 'https://m.facebook.com/Acropol-517868231583044/photos/', 'short_snippet': 'Acropol | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 104/345
+Splitting to columns
+{'md5': '83785371faece2a34d84214886fd1fb1', 'url': 'https://m.facebook.com/BrownAcropol/', 'short_snippet': 'Brown Acropol - Home | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 105/345
+Splitting to columns
+{'md5': '2e6f5d9bbb2e28fabdcfe8498306b50c', 'url': 'https://www.facebook.com/acropolvintage/videos/acropol-vintage-food/377850019692958/', 'short_snippet': 'Acropol Vintage - Acropol Vintage Food | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 106/345
+Splitting to columns
+{'md5': 'de30e0a2f57165c7d68d945e5ab7df65', 'url': 'https://m.facebook.com/AcropolUAE1996/', 'short_snippet': 'Acropol Interiors - Home | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 107/345
+Splitting to columns
+{'md5': 'c63f4dc9d73c59a9febe2c6adbc0ce40', 'url': 'https://acropolhotel.com/contact', 'short_snippet': 'Contact - GLK Premier Acropol Suites &amp; Spa Hotel Sultanahmet Istanbul', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 108/345
+Splitting to columns
+{'md5': 'c2be467fd1c4b1fe93c654eb34631bbf', 'url': 'https://www.acropolplaka.com/en/contact', 'short_snippet': 'Contact - Acropol Plaka Restaurant', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 109/345
+Splitting to columns
+{'md5': '3e731f413384eea05587c0da74f73256', 'url': 'https://m.facebook.com/acropol.lk/', 'short_snippet': 'Acropol Restaurant - Home - Colombo, Sri Lanka - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 110/345
+Splitting to columns
+{'md5': 'bb1d4c8d6c3c9e1d7fca1a5d1972020d', 'url': 'https://www.facebook.com/acropol.lk/menu/', 'short_snippet': 'Acropol Restaurant | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 111/345
+Splitting to columns
+{'md5': 'e609a9e78438bb00cc81c6121c8ab114', 'url': 'https://m.facebook.com/acropol.lk/photos/photos_by_others/', 'short_snippet': 'Photos - Colombo, Sri Lanka - Menu, prices, restaurant reviews | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 112/345
+Splitting to columns
+{'md5': '04a2aef693fc4dbc7d7de2d5b91802a0', 'url': 'https://m.facebook.com/acropolvintage/photos/?ref=page_internal&mt_nav=0', 'short_snippet': 'Acropol Vintage - Photos | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 113/345
+Splitting to columns
+{'md5': 'cb5414a6f41e416c295f82cf0c8d3ec4', 'url': 'https://m.facebook.com/acropol.lk/videos/343719251107466/', 'short_snippet': 'Acropol Restaurant - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 114/345
+Splitting to columns
+{'md5': '3556d64be762af2566a1b0bba533b0ff', 'url': 'https://m.facebook.com/acropolfamrestaurant/', 'short_snippet': 'Acropol Family Restaurant - Key Largo, Florida - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 115/345
+Splitting to columns
+{'md5': 'ac64f44306cc4dfba38c6bd5465b2de4', 'url': 'https://www.newmoney.gr/roh/palmos-oikonomias/ependyseis/leon-avigkad-brown-hotels-h-platia-omonias-tha-gini-to-neo-soho-pics/amp/', 'short_snippet': 'Λέον Αβιγκάδ (Brown Hotels): «H πλατεία Ομονοίας θα γίνει το νέο Soho', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 116/345
+Splitting to columns
+{'md5': '03950985c67407fbfc0b2bdfb783ec07', 'url': 'https://m.facebook.com/acropol.lk/photos/', 'short_snippet': 'Acropol Restaurant | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 117/345
+Splitting to columns
+{'md5': '801c64c10abde70687c69f39a44097f3', 'url': 'https://m.facebook.com/AcropolHotel/', 'short_snippet': 'Acropol Hotel - Home | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 118/345
+Splitting to columns
+{'md5': '41735819cf241787ae083a6283cdc58c', 'url': 'https://news.gtp.gr/venue/brown-acropol-hotel/', 'short_snippet': 'Brown Acropol Hotel | GTP Headlines', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 119/345
+Splitting to columns
+{'md5': '3de1bbb5f2dc29eeb754a2dbba96cbec', 'url': 'https://m.facebook.com/acropol.lk/posts?locale=en_GB&_rdr', 'short_snippet': 'Acropol Restaurant - Posts - Colombo, Sri Lanka - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 120/345
+Splitting to columns
+{'md5': '2e440c0a21440832048b173925c28363', 'url': 'https://www.facebook.com/Acropol-Hotel-Spa-1672902222991312/photos/', 'short_snippet': 'Acropol Hotel &amp; Spa | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 121/345
+Splitting to columns
+{'md5': '2c6e08e1187db28bb7aeaaa9815212b4', 'url': 'https://www.exibart.com/beni-culturali/marmi-del-partenone-il-regno-unito-apre-al-dialogo-con-la-grecia/amp/', 'short_snippet': 'Marmi del Partenone: il Regno Unito apre al dialogo con la Grecia - Exibart', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 122/345
+Splitting to columns
+{'md5': '1cf954f35b63d60234adde07e4fc43b5', 'url': 'https://vymaps.com/AU/Acropol-painting-services-805142782952909/', 'short_snippet': 'Acropol painting services, Victoria - VYMaps.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 123/345
+Splitting to columns
+{'md5': '26013be9325fd86f4e674840aea24472', 'url': 'https://m.facebook.com/pg/acropol.lk/menu/?referrer=PAGE_ATTACHMENT', 'short_snippet': 'Acropol Restaurant - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 124/345
+Splitting to columns
+{'md5': 'c823a961fce2299dc986ce9504864656', 'url': 'https://athensisback.gr/en/7630-2/', 'short_snippet': 'Acropol Theater | Athens is Back', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 125/345
+Splitting to columns
+{'md5': 'e066f9d7156fa62d453704f90ef1a8d8', 'url': 'https://m.facebook.com/acropolinnclearwater/photos/', 'short_snippet': 'Acropol Inn Restaurant - Photos - Clearwater, Florida - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 126/345
+Splitting to columns
+{'md5': '1d2d497b000dceba118e9f949a45ff31', 'url': 'https://www.acropolfamilyrestaurant.com/', 'short_snippet': 'Acropol Family Restaurant - Acropol Family Restaurant', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 127/345
+Splitting to columns
+{'md5': '81c390a8a25eadec6ce94da2a131925d', 'url': 'https://m.facebook.com/acropol.lk/videos/stay-home-enjoy-exclusive-offers-from-acropol-restaurant/809238839971563/', 'short_snippet': 'Stay Home &amp; Enjoy Exclusive Offers from Acropol Restaurant | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 128/345
+Splitting to columns
+{'md5': '8d35c1ed9ecb96cf1b986b2d2e3c802b', 'url': 'https://m.facebook.com/AcropolHotel/photos/?ref=page_internal&mt_nav=0', 'short_snippet': 'Acropol Hotel - Photos | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 129/345
+Splitting to columns
+{'md5': '9c76a829f34398dd505ebc2706ac09ba', 'url': 'https://m.facebook.com/acropolinnclearwater/', 'short_snippet': 'Acropol Inn Restaurant - Home - Clearwater, Florida - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 130/345
+Splitting to columns
+{'md5': '3a374a30a9f6eda03bb7338a3f2a9ad5', 'url': 'https://www.tradeinn.com/goalinn/en/munich-acropol-155-trainers/136124836/p', 'short_snippet': 'Munich Acropol 155 Trainers | Goalinn - Tradeinn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 131/345
+Splitting to columns
+{'md5': '6144c1245f9d21ed8d2e01d46de1eb99', 'url': 'https://www.facebook.com/acropolfamrestaurant/videos/acropol/372696009938532/', 'short_snippet': 'Acropol Family Restaurant - Acropol | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 132/345
+Splitting to columns
+{'md5': '6b4e012a897a575588fdb86d7b44cf1a', 'url': 'https://m.getaroom.com/hotels/brown-acropol-a-member-of-brown-hotels', 'short_snippet': 'Brown Acropol a member of Brown Hotels Athens - Attica - Getaroom.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 133/345
+Splitting to columns
+{'md5': 'be92664f2741d4683505adc716e82027', 'url': 'https://www.instagram.com/acropolhotel/', 'short_snippet': 'Acropol Hotel (@acropolhotel) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 134/345
+Splitting to columns
+{'md5': '36ae65a70590d8df4153dbdc8589f883', 'url': 'https://www.turkishairlinesholidays.com/en-tr/brown-acropol-a-member-of-brown-hotels', 'short_snippet': 'Brown Acropol a member of Brown Hotels - Turkish Airlines Holidays', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 135/345
+Splitting to columns
+{'md5': '250b986ea2d4d0517359b5985ed32505', 'url': 'https://m.cdn.com.do/destacados/acropol-reconoce-labor-coronel-poche-regional-cibao-sur-la-pn/', 'short_snippet': 'ACROPOL reconoce labor de Coronel Poché en regional Cibao-Sur de la ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 136/345
+Splitting to columns
+{'md5': 'ba3df4aed0165c43344a08714f72820b', 'url': 'https://untappd.com/v/athens-acropol-hotel/8083828', 'short_snippet': 'Athens Acropol Hotel - Αθήνα, Αττική - Untappd', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 137/345
+Splitting to columns
+{'md5': '0920bb5755f344c8c1273bbd118df7ca', 'url': 'https://thegaypassport.com/venue/brown-acropol-a-member-of-brown-hotels/', 'short_snippet': 'Brown Acropol a member of Brown Hotels: New 2022 Review', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 138/345
+Splitting to columns
+{'md5': '6fe861d98067023472a7ed1f2c29f168', 'url': 'https://acropol.meva.net/2020/06/23/5-expert-tips-to-get-more-engagement-on-instagram/', 'short_snippet': '5 Expert Tips to Get More Engagement on Instagram - Acropol ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 139/345
+Splitting to columns
+{'md5': '76a3fa1b45365619f87750fdaeabe522', 'url': 'https://m.youtube.com/watch?v=BupT1sgohLQ', 'short_snippet': 'STAYCATION VLOG VOL II @ Brown Acropol Hotel Athens - YouTube', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 140/345
+Splitting to columns
+{'md5': '5d793857b80feb5eaa3f0b5ac3a7fe47', 'url': 'https://www.tablethotels.com/en/athens-hotels/brown-acropol-by-brown-hotels', 'short_snippet': 'Brown Acropol by Brown Hotels (Athens, Greece) Verified Reviews', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 141/345
+Splitting to columns
+{'md5': 'ef78ba0bc20ff2ad714935d75da1999b', 'url': 'https://www.instagram.com/explore/tags/acropol/', 'short_snippet': '#acropol hashtag on Instagram • Photos and Videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 142/345
+Splitting to columns
+{'md5': 'a3c304e84d8a88e7037563fc1f81f4a6', 'url': 'https://www.tradesport.com/ANY/20091026/munich-presenta-sus-propuestas-para-esta-navidad_AMP_.aspx', 'short_snippet': 'Munich presenta sus propuestas para esta Navidad - Tradesport', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 143/345
+Splitting to columns
+{'md5': 'b94a96db989f473725bbadb03cdf6fa9', 'url': 'https://www.thomascook.com/holidays/greece/athens/athens/brown-acropol-a-member-of-brown-hotels-37513/', 'short_snippet': 'Brown Acropol a member of Brown Hotels - Thomas Cook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 144/345
+Splitting to columns
+{'md5': '90007a995b240a61d7359e0fa52ebb5e', 'url': 'https://www.tradeinn.com/dressinn/en/munich-acropol-129-trainers/136124810/p', 'short_snippet': 'Munich Acropol 129 Trainers | Dressinn - Tradeinn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 145/345
+Splitting to columns
+{'md5': '5805b6074dd5a271ba2773c70d62d642', 'url': 'https://www.instagram.com/acropol.dev/', 'short_snippet': '@acropol.dev • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 146/345
+Splitting to columns
+{'md5': '180103deb0cac3102d25716de89e2236', 'url': 'https://www.instagram.com/acropol_restaurant_colombo/', 'short_snippet': 'acropol_restaurant_colombo - Instagram', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 147/345
+Splitting to columns
+{'md5': 'c63f4dc9d73c59a9febe2c6adbc0ce40', 'url': 'https://acropolhotel.com/contact', 'short_snippet': 'Contact - GLK Premier Acropol Suites &amp; Spa Hotel Sultanahmet Istanbul', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 148/345
+Splitting to columns
+{'md5': '201e6a76a29b865315e278c9ac3d25a0', 'url': 'https://www.atninfo.com/co/acropol-trading-establishment-dubai-12947', 'short_snippet': 'Details of Acropol Trading Establishment, Dubai, UAE - ATNInfo', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 149/345
+Splitting to columns
+{'md5': '31e6f9ccb28950906eff188939362358', 'url': 'https://m.facebook.com/pages/category/Halal-Restaurant/acropol.lk/photos/', 'short_snippet': 'Acropol Restaurant - Photos - Colombo, Sri Lanka - Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 150/345
+Splitting to columns
+{'md5': 'c6caa951f92881bea7f1cd3b5ea180dc', 'url': 'https://www.traveldailynews.com/post/brown-hotels-landing-in-greece-with-the-opening-of-brown-acropol-hotel', 'short_snippet': 'Brown Hotels landing in Greece with the opening of Brown Acropol hotel', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 151/345
+Splitting to columns
+{'md5': '0ee6a6e58f0370cf3892457f1626342f', 'url': 'http://www.mondecarte.com/welcome-to-best-western-acropol-hotel-istanbul', 'short_snippet': 'Welcome to Best Western Acropol Hotel Istanbul - MondeCarte.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 152/345
+Splitting to columns
+{'md5': '20f573fa9bc61e02ed48e88d81d81b40', 'url': 'https://acropol-studios.com/my-instagram-feed-demo/', 'short_snippet': 'My Instagram Feed Demo - Acropol Hotel Molivos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 153/345
+Splitting to columns
+{'md5': '1d80fb5655a2bb55142ff147f03b40c3', 'url': 'https://gladyspalmera.com/acropol-rumba-punk-y-pantalones-campana-en-planeta-jondo/', 'short_snippet': 'Acropol, Rumba, Punk y pantalones campana - Radio Gladys Palmera', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 154/345
+Splitting to columns
+{'md5': 'dd26fbc3af19cd15daa492de5db1a069', 'url': 'https://acropol-podcast.eu/', 'short_snippet': 'ACROPOL', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 155/345
+Splitting to columns
+{'md5': '70780d31d0e6942767d184a01b900a76', 'url': 'https://www.instagram.com/p/CRA-b2pBzEp/?utm_medium=tumblr', 'short_snippet': 'Pp - Instagram', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 156/345
+Splitting to columns
+{'md5': 'bebdcd9b5a6f3fc641ca2f5b577988e0', 'url': 'https://www.businessdaily.gr/english-edition/25635_which-new-hotels-are-opening-heart-athens?amp', 'short_snippet': 'Which new hotels are opening in the heart of Athens | Business Daily', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 157/345
+Splitting to columns
+{'md5': 'cf599dded8c8c2d38d2a99dd14cbe5ca', 'url': 'https://www.yellowpages.ae/sellers/acropol-interiors', 'short_snippet': 'Acropol Interiors In Abu Dhabi | yellowpages.ae', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 158/345
+Splitting to columns
+{'md5': '53374eac84879b6fa446633e73b3bf8e', 'url': 'https://www.priceline.com/relax/at/3399105/rooms/1?cityId=5000299320&cur=USD&gid=2396&pclnId=F7CCDE695E15E7F64401FC33F390DAC713B696F33340DF0F31494139D89986F97B791D597A8BF807C2145CEA63CAA88AA8519E03679B6EB783520BE009A2ECB2AE592C75F9D0F98C&vrid=2db6c5a4d2271bc0bd20c212a2209373', 'short_snippet': 'Acropol Hotel - Priceline.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 159/345
+Splitting to columns
+{'md5': 'af303dfcdd2a33e4370a1b2c0d0069aa', 'url': 'https://mobile.twitter.com/nmsk1980', 'short_snippet': 'mohamed shafeek (@nmsk1980) / Twitter', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 160/345
+Splitting to columns
+{'md5': 'd0ed61c66177460adb7a49028d1cc216', 'url': 'https://www.123rf.com/photo_4765209_turkey-pergamon-acropol-view-from-bergama-side.html', 'short_snippet': 'Turkey-Pergamon,Acropol view from Bergama side - 123RF', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 161/345
+Splitting to columns
+{'md5': '17cc52f1f70f51751acaee58ece38215', 'url': 'https://www.pinterest.co.uk/pin/440719513540913305/', 'short_snippet': 'Boutique Hotel in Athens | Brown Acropol Athens - Pinterest', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 162/345
+Splitting to columns
+{'md5': '39ef9e3ffe6c7552a7c1d220b7fa81cb', 'url': 'https://imginn.com/p/COVqQFgpsrH/', 'short_snippet': 'BNBME GREECE (@bnbmegreece): A VIEW WORDS ABOUT THE ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 163/345
+Splitting to columns
+{'md5': '0feef807fdd16e5d9b1d439a606f9dbb', 'url': 'https://www.instagram.com/explore/locations/1012029053/poland/kalisz-kalisz-poland/acropol/', 'short_snippet': 'Acropol on Instagram • Photos and Videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 164/345
+Splitting to columns
+{'md5': '6b488cf100ae95da3d42722db0145085', 'url': 'https://www.instagram.com/brownacropol/', 'short_snippet': 'Brown Acropol (@brownacropol) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 165/345
+Splitting to columns
+{'md5': '49cc62762c25c80680717c8c96d300a4', 'url': 'https://www.rossholidays.nl/vakanties/hotels/epiros/hotel-acropol', 'short_snippet': 'Hotel Acropol op Epiros - Ross Holidays', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 166/345
+Splitting to columns
+{'md5': '05b60ece0f5785d83f74ab9efc2e1d1e', 'url': 'http://www.abc-uae.net/companies/91835/acropol-trading-est', 'short_snippet': 'Acropol Trading Est - ABC UAE Business Directory', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 167/345
+Splitting to columns
+{'md5': '0ccfa5505da196838a20930ac585f1a4', 'url': 'https://homeuniqueltd.com/products/acropol-lounge-chairs', 'short_snippet': 'Acropol Lounge Chairs - Home Unique', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 168/345
+Splitting to columns
+{'md5': '21e4ef00bc2160ca1c8cc45a70ff5dab', 'url': 'https://news.gtp.gr/2011/03/01/grecotel-shuts-classical-acropol-in-athens-center/', 'short_snippet': 'Grecotel Shuts Classical Acropol In Athens Center | GTP Headlines', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 169/345
+Splitting to columns
+{'md5': '6c1a9f5b0edfad6e88034988bd82093c', 'url': 'https://www.propertyyacht.com/', 'short_snippet': 'Property &amp; Yacht: HOME', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 170/345
+Splitting to columns
+{'md5': '7a662a4cda557a177e28b407c52b9dfc', 'url': 'https://www.trip2athens.com/accommodation/hotel-882/', 'short_snippet': 'Acropol Hotel | Trip2Athens.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 171/345
+Splitting to columns
+{'md5': '2dfa840a25fab4a8df615c4b20da5804', 'url': 'https://dcciinfo.ae/co/acropol-furniture-trading-dubai/162618', 'short_snippet': 'Acropol Furniture Trading in Dubai, UAE Get Phone', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 172/345
+Splitting to columns
+{'md5': '98f7b526a693def5abe461c575747567', 'url': 'https://www.worldpulse.org/story/mr.-acropol-0x18c0fc3d', 'short_snippet': 'Mr. Acropol - World Pulse', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 173/345
+Splitting to columns
+{'md5': 'e6044e4fa87b71448590728c9b2ff87d', 'url': 'https://www.travelagewest.com/Travel/Europe/The-Most-Popular-Portugal-Locations-on-Instagram', 'short_snippet': 'The Most Popular Portugal Locations on Instagram | TravelAge West', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 174/345
+Splitting to columns
+{'md5': 'a7357ff0270eb9a8d1d6df91b09405b7', 'url': 'https://www.tradeinn.com/goalinn/en/munich-acropol-266-trainers/136124938/p', 'short_snippet': 'Munich Acropol 266 Trainers | Goalinn - Tradeinn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 175/345
+Splitting to columns
+{'md5': '85d9f9e16ec27c5bf485456da4d7a45f', 'url': 'https://www.opentable.com/r/acropol-family-restaurant-largo', 'short_snippet': 'Acropol Family Restaurant - Largo, FL | OpenTable', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 176/345
+Splitting to columns
+{'md5': 'd07d29a69abca96fd359e4015bcb4181', 'url': 'https://www.tumblr.com/tagged/acropol?sort=top', 'short_snippet': '#acropol on Tumblr', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 177/345
+Splitting to columns
+{'md5': '40c0f69bbc95cfa71abad96eca759406', 'url': 'https://www.trip.com/travel-guide/colombo-753-restaurant/acropol-restaurant-19741269/', 'short_snippet': 'Acropol Restaurant Reviews: Food &amp; Drinks in Western Province Colombo', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 178/345
+Splitting to columns
+{'md5': 'ad0c6f2566b02f5af88680b7a0002482', 'url': 'https://www.infobae.com/america/agencias/2021/07/16/rusia-yandex-completa-la-compra-de-acropol-bank-por-125-millones-y-obtiene-licencia-bancaria/?outputType=amp-type', 'short_snippet': 'Rusia.- Yandex completa la compra de Acropol Bank por 12,5 ... - Infobae', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 179/345
+Splitting to columns
+{'md5': 'e12201e264d4dd1f27123f8a7fc55c7d', 'url': 'https://www.rdfirmaautorizada.com/2022/04/director-regional-sureste-realiza.html', 'short_snippet': 'Director Regional Sureste realiza encuentro con miembros de la ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 180/345
+Splitting to columns
+{'md5': 'ea7c418a3ccae32d1defc3ec0ad26b60', 'url': 'https://www.ibo.sk/polovnicke-potreby/dekoracne-vankuse/dekoracny-vankus-kamen-acropol', 'short_snippet': 'Dekoračný vankúš kameň Acropol | IBO.sk', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 181/345
+Splitting to columns
+{'md5': 'dda79f2245f570daa81d9b832db43fd8', 'url': 'https://www.publish.csiro.au/cp/AR9690057', 'short_snippet': 'Studies with antitranspirants on grapevines (Vitis vinifera Var ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 182/345
+Splitting to columns
+{'md5': 'c823a961fce2299dc986ce9504864656', 'url': 'https://athensisback.gr/en/7630-2/', 'short_snippet': 'Acropol Theater | Athens is Back', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 183/345
+Splitting to columns
+{'md5': 'a30a7216e40695fc773a7be65dbbab41', 'url': 'https://www.instagram.com/explore/locations/370155264/greece/athens-greece/acropol-hotel/', 'short_snippet': 'Acropol Hotel on Instagram • Photos and Videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 184/345
+Splitting to columns
+{'md5': 'a7654aa1022d3665e2cdecaccf56c0c6', 'url': 'https://acropol.greecedirectly.com/', 'short_snippet': 'acropol.gr - Check out reviews, Book online', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 185/345
+Splitting to columns
+{'md5': '9e0a14ec33f216aea14fa461d8bac962', 'url': 'https://www.athensinsider.com/listing/brown-acropol/', 'short_snippet': 'Brown Acropol | Athens Insider', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 186/345
+Splitting to columns
+{'md5': 'caa40ce109f700786eb7d31d334fa796', 'url': 'https://www.instagram.com/acropol_kalisz/', 'short_snippet': 'Acropol (@acropol_kalisz) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 187/345
+Splitting to columns
+{'md5': '50c55d8c9a20843c0c3e6bfaa88da9fa', 'url': 'https://create.vista.com/cs/photos/Acropol/', 'short_snippet': 'Stock royalty-free fotografie a obrázky Acropol - VistaCreate', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 188/345
+Splitting to columns
+{'md5': 'ce4a55d98080fb22dea8c2dc34273b4f', 'url': 'https://www.afvclub.com/search-resorts/resort/RL83', 'short_snippet': '3NT Brown Acropol | Armed Forces Vacation Club', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 189/345
+Splitting to columns
+{'md5': 'fb1606822556f42339a19736f76ff825', 'url': 'https://www.dvacaciones.com/es/acropol-beach_h_377307.html', 'short_snippet': 'Ofertas en Acropol Beach | No pagues más por lo mismo', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 190/345
+Splitting to columns
+{'md5': '06dba7647ea8502b7a2748e7c1ac64ff', 'url': 'https://www.nationalopera.gr/en/the-artists/guest-artists-page/stavros-niarchos-hall-herodium-guest-artists/item/3915-chryssanthos-alissafis', 'short_snippet': 'Chryssanthos Alissafis - Greek National Opera', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 191/345
+Splitting to columns
+{'md5': '666f996c079303c3e888d8257db3def8', 'url': 'https://giftit.gr/en/bespoke-corporate-gifting/', 'short_snippet': 'bespoke + corporate gifting - Gift It', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 192/345
+Splitting to columns
+{'md5': 'f65675a3debdcc91f24ccaac0b5b638b', 'url': 'https://acropol-guest-house-pythagoreio.booked.net/amp.html', 'short_snippet': '°HOTEL ACROPOL PYTHAGOREIO (SAMOS) (Greece) - from US$ 48 ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 193/345
+Splitting to columns
+{'md5': '32a3fe36c789002edca792e6f503eb62', 'url': 'https://www.tumgir.com/weracropolrestaurant', 'short_snippet': 'weracropolrestaurant - Tumblr blog | Tumgir', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 194/345
+Splitting to columns
+{'md5': 'bfa72e6207762f03a2991182f90fd4d3', 'url': 'https://www.a-hotel.com/greece/105574-mithimna/290184-1-acropol-studios/', 'short_snippet': 'Acropol Studios, Aparthotel, Mithimna, Greece', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 195/345
+Splitting to columns
+{'md5': '282d58dad787ea9469f96f9815be2926', 'url': 'https://www.eramita.com/acropol-tiyatrosu', 'short_snippet': 'Acropol Tiyatrosu | Eramita', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 196/345
+Splitting to columns
+{'md5': '318eb893a9eab361509a46108fe967d8', 'url': 'https://mielunelingerie.com.br/AH-A-ACROPOL-APACHE-MISTERCRAFT-GREEK-DUTCH-ISRAELI-US-ARMY-MKGS-72731/en/item-a61tq/', 'short_snippet': 'ah-64 a acropol apache 1/72 mistercraft greek, dutch, israeli ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 197/345
+Splitting to columns
+{'md5': '0aedce7567615adf630ef401603905d1', 'url': 'http://best-hashtags.com/hashtag/lycabettus/', 'short_snippet': 'Hashtags for #lycabettus to grow your Instagram, TikTok', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 198/345
+Splitting to columns
+{'md5': '0df920985e89cacae4a3b2149b43121a', 'url': 'https://www.acropolrd.com/estan-fuera-de-servicio-a-nivel-mundial-las-plataformas-facebook-instagram-y-wathsapp-justifican-con-perdon-algo-salio-mal/', 'short_snippet': 'Están fuera de servicio a nivel mundial las plataformas Facebook ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 199/345
+Splitting to columns
+{'md5': '115028426afc4a3a4b9abbfba59698be', 'url': 'https://www.tripadvisor.com/ShowUserReviews-g189400-d19525668-r774495461-Brown_Acropol_By_Brown_Hotels-Athens_Attica.html', 'short_snippet': '24 little hours...in Athens - Brown Acropol By Brown Hotels - TripAdvisor', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 200/345
+Splitting to columns
+{'md5': '510ed5b4fcc34056f1c73062154a69ae', 'url': 'http://acropol.lk/home/', 'short_snippet': 'Home | ACROPOL.LK', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 201/345
+Splitting to columns
+{'md5': '304c7c78bbef87c91ae5ee9a653e313c', 'url': 'https://www.instagram.com/acropol_vintage/', 'short_snippet': 'Acropol Vintage (@acropol_vintage) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 202/345
+Splitting to columns
+{'md5': '8105c4dacda49f78f8e8216d6ba5c59d', 'url': 'https://www.instagram.com/acropol/', 'short_snippet': 'Alexander Medinets (@acropol) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 203/345
+Splitting to columns
+{'md5': '66decebfd791760f15d74ae3a2d87444', 'url': 'https://www.hepsiemlak.com/proje/mugla-bodrum/acropol-port-projesi-6067', 'short_snippet': 'ACROPOL PORT Projesi | hepsiemlak', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 204/345
+Splitting to columns
+{'md5': '297d42f4ab4204d07203c20a5dd7e159', 'url': 'https://www.inprnt.com/gallery/vitkovskaya_art/past-acropol/', 'short_snippet': 'Past Acropol, an art print by Ekaterina Vitkovskaya - INPRNT', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 205/345
+Splitting to columns
+{'md5': '99f7f33301ea91ca16bc6bbee6c381b6', 'url': 'https://www.instagram.com/acropol.ir/', 'short_snippet': 'Acropol (@acropol.ir) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 206/345
+Splitting to columns
+{'md5': 'eacab0d4e12b1301089af007613bedcb', 'url': 'https://www.instagram.com/acropol_podcast/', 'short_snippet': 'ACROPOL (@acropol_podcast) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 207/345
+Splitting to columns
+{'md5': '57d34220eafdf1a695cc49ee42fb2c9f', 'url': 'http://acropol.lu.zium.co/', 'short_snippet': 'Acropol.lu review: marketing, built with &amp; technology report - zium.co', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 208/345
+Splitting to columns
+{'md5': '85c673437df24eab3434bc8e1d656605', 'url': 'https://www.matexpo.com/en/exposant/hmb', 'short_snippet': 'Export as - Matexpo', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 209/345
+Splitting to columns
+{'md5': 'a8562d2b75042bc8179a6838d25abbd3', 'url': 'https://www.goldenvisa-greece.com/signals-of-greek-economic-revival/amp/', 'short_snippet': 'Signals of Greek Economic Revival | Golden Visa Greece', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 210/345
+Splitting to columns
+{'md5': '839a82966cdc5e42c593d4c716587aee', 'url': 'https://www.sahibinden.com/satilik-villa/emlak-ofisinden,insaat-firmasindan?pagingOffset=400', 'short_snippet': "Satılık Villa Fiyatları ve Villa İlanları sahibinden.com'da - 21", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 211/345
+Splitting to columns
+{'md5': '62df5514b1681ea686cdb8ceae7f60c0', 'url': 'https://books.google.hn/books?id=md79ljLUWTEC&pg=PA307&lpg=PA307&dq=acropol++meta&source=bl&ots=Xfmy3a9WEh&sig=ACfU3U2gT5-iqyfUN_L1x5axINPkqgzWSA&hl=en&sa=X&ved=2ahUKEwj_zJPEufb3AhWkhIkEHcIkD3YQ6AF6BQjRARAC', 'short_snippet': 'Tanzania', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 212/345
+Splitting to columns
+{'md5': '546094d3310f0f59ce1a2a60c062ed2a', 'url': 'https://www.tez-tour.com/en/spb/stopSale.html?countryId=1104', 'short_snippet': 'meta.stop.sale.title - Tez Tour', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 213/345
+Splitting to columns
+{'md5': 'e6e40153e1fdaae0c28398620e3668ea', 'url': 'https://www.booking.com/hotel/tr/acropol-beach.is.html', 'short_snippet': 'Acropol Beach Hotel (Hótel), Antalya (Tyrkland) - Booking.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 214/345
+Splitting to columns
+{'md5': 'dffd50b1513381cbf5ac71098ea54fe5', 'url': 'https://finance.yahoo.com/finance/news/russias-yandex-buy-acropol-bank-080001004.html', 'short_snippet': "Russia's Yandex to buy Acropol bank in move to develop financial ...", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 215/345
+Splitting to columns
+{'md5': 'c4693da504fc2a825ecc9131cbe8403c', 'url': 'https://www.facebook.com/acropolfamrestaurant/community/', 'short_snippet': 'Acropol Family Restaurant | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 216/345
+Splitting to columns
+{'md5': '5ef2313f3289ccfec50637846ae08aaa', 'url': 'https://infopuertoplata.com/nuevo-director-regional-de-cestur-realiza-visita-de-cortesia-a-alcalde-freddy-cruz/', 'short_snippet': 'Nuevo director regional de CESTUR realiza visita de cortesía a alcalde ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 217/345
+Splitting to columns
+{'md5': '14b7b752d321308ed260b2a9933ec1e6', 'url': 'https://vibe-cs.com.siteindices.com/', 'short_snippet': 'Vibe-cs / استودیو وایب | طراحی گرافیک،هویت بصری برند،عکاسی ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 218/345
+Splitting to columns
+{'md5': 'a23f7c281e78124c237d1c76a3a664ad', 'url': 'https://allnex.com/es/product/3a30fd35-4456-4f05-ba2f-113bead2fa71/acropol-63-079-5', 'short_snippet': 'ACROPOL™ 63-079 - allnex', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 219/345
+Splitting to columns
+{'md5': '3e019f59cfbda5f1e9bb4b3b8c99141e', 'url': 'https://empresite.eleconomista.es/Actividad/ACROPOL/', 'short_snippet': 'Acropol en España. Listado de empresas de Acropol en España', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 220/345
+Splitting to columns
+{'md5': '1859a5bae9283d683fe1dd5c4c209119', 'url': 'https://www.acropolrd.com/es-tiempo-nuevo-lema-de-las-aguilas/', 'short_snippet': '“Es Tiempo”: nuevo lema de las Águilas - Acropol RD', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 221/345
+Splitting to columns
+{'md5': 'f732ee2c74812403a684256c123716e6', 'url': 'https://w.metrobankcard.com/Content/documents/card-services/ABU%20Registered%20Merchants%20as%20of%20November%202021.pdf', 'short_snippet': 'merchant_name date_registered Accor SA-Hotel Park Hande 11/30 ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 222/345
+Splitting to columns
+{'md5': '0a9b1cf64e3e0ee26e8793f62506a8f8', 'url': 'https://www.gittigidiyor.com/ayakkabi/spor-ayakkabi?uc=1&kullanici-tipi=%C3%87ocuk&numara=40&sf=12', 'short_snippet': '40 ,Çocuk Spor Ayakkabı Modelleri - GittiGidiyor 12', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 223/345
+Splitting to columns
+{'md5': '017b01b21cb0d725c83bf8a313bd0d24', 'url': 'https://www.skyscanner.es/rutas-aereas/bio/ista/bilbao-a-estambul.html', 'short_snippet': 'Vuelos baratos de Bilbao a Estambul para 2022 - Skyscanner', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 224/345
+Splitting to columns
+{'md5': '26615a80211fd461b4ca3583f0f1516f', 'url': 'http://site-overview.com/stats/delhivery.io', 'short_snippet': 'delhivery.io analysis - Site-Overview.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 225/345
+Splitting to columns
+{'md5': '180103deb0cac3102d25716de89e2236', 'url': 'https://www.instagram.com/acropol_restaurant_colombo/', 'short_snippet': 'acropol_restaurant_colombo - Instagram', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 226/345
+Splitting to columns
+{'md5': 'c740d70ae87b87f331fc38776b323775', 'url': 'https://regencysuitesistanbul.com/site-usage', 'short_snippet': 'Site Usage - GLK PREMIER Regency Suites &amp; Spa Hotel Istanbul', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 227/345
+Splitting to columns
+{'md5': '57723f0316f0b7b8ac1b2292569fb6f5', 'url': 'https://diy.stackexchange.com/questions/108816/acropol-fibreglass-turned-yellow-on-flat-roof-what-causes-this', 'short_snippet': 'Acropol fibreglass turned yellow on flat roof, what causes this?', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 228/345
+Splitting to columns
+{'md5': '0f86d17e0f76caa6d6dfb6d4df653492', 'url': 'https://www.researchgate.net/publication/220674228_A_context-aware_preference_database_system', 'short_snippet': '(PDF) A context‐aware preference database system - ResearchGate', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 229/345
+Splitting to columns
+{'md5': '0c55c7c6e0f2bfe1f3308e125cfa3f0e', 'url': 'http://www.labottegadellelanterne.it/vmdrycs9/lspdfr-ford-ranger.html', 'short_snippet': 'Lspdfr ford ranger. 2014 Police Ford Ranger [ELS] 1. $72/mo. Door ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 230/345
+Splitting to columns
+{'md5': '945b3a365f2e15c8a9d0e5fef058f224', 'url': 'https://www.redfin.com/FL/Largo/3161-Meta-Ct-33771/home/48242956', 'short_snippet': '3161 Meta Ct, LARGO, FL 33771 | MLS# T3326574 | Redfin', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 231/345
+Splitting to columns
+{'md5': 'e32e2251c3226f2568de8d868808c2b3', 'url': 'https://www.luc.edu/media/lucedu/archives/pdfs/schoder_greece.pdf', 'short_snippet': 'raymond v. schoder, sj (1916-1987) - Loyola University Chicago', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 232/345
+Splitting to columns
+{'md5': '6f45f23cacd5c5a87d22b4751eb56cc8', 'url': 'https://allnex.com/es/product/598a6749-50b4-4f10-9cce-dbd6ebcc040a/ACROPOL-63-075-5', 'short_snippet': 'ACROPOL™ 63-075 - allnex', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 233/345
+Splitting to columns
+{'md5': '1d173f6157db96ac64186e7d25643b50', 'url': 'https://www.tripadvisor.com.br/Hotel_Review-g806325-d1113026-Reviews-New_Acropol_Hotel-Morogoro_Morogoro_Region.html', 'short_snippet': 'NEW ACROPOL HOTEL (MOROGORO, TANZÂNIA): 57 fotos e ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 234/345
+Splitting to columns
+{'md5': '1d3fda4599fd82ac4bd873ee489842a5', 'url': 'https://www.facebook.com/Acropol-%CE%91%CE%BA%CF%81%CE%BF%CF%80%CE%BF%CE%BB-1813586665523903/community/', 'short_snippet': 'Acropol-Ακροπολ | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 235/345
+Splitting to columns
+{'md5': '5dcc76251a41229343d6e1a85a66931b', 'url': 'https://www.toprakotobcs.com/www.maquinasacropolis.com.ar.html', 'short_snippet': 'maquinasacropolis.com.ar - Maquinas Acropolis y Acropol Goma', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 236/345
+Splitting to columns
+{'md5': '6d4acb86e30390ccf39435c7e2466667', 'url': 'https://www.mysciencework.com/patent/show/compositions-containing-nonionic-surfactants-process-producing-them-EP0019484A1', 'short_snippet': 'Compositions containing nonionic surfactants and a process for...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 237/345
+Splitting to columns
+{'md5': '6b488cf100ae95da3d42722db0145085', 'url': 'https://www.instagram.com/brownacropol/', 'short_snippet': 'Brown Acropol (@brownacropol) • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 238/345
+Splitting to columns
+{'md5': '740d93195599421a11e430044d7dfcc2', 'url': 'https://www.accessify.com/amp/a/acropolsuites.com', 'short_snippet': 'Access acropolsuites.com. GLK Premier Acropol Suites &amp; Spa Hotel ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 239/345
+Splitting to columns
+{'md5': 'dae097c31baafee232cb7429b481664b', 'url': 'https://books.google.hn/books?id=omxYAAAAcAAJ&pg=RA2-PA4&lpg=RA2-PA4&dq=acropol++meta&source=bl&ots=R_DecxwGUR&sig=ACfU3U3tuPf7L-RHiuIvpcZr8TXwjvT3xw&hl=en&sa=X&ved=2ahUKEwj_zJPEufb3AhWkhIkEHcIkD3YQ6AF6BQjNARAC', 'short_snippet': 'Byzantina Historia ; Tomus Primus. Libri XI. ab Hier. Wolfio ... ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 240/345
+Splitting to columns
+{'md5': 'e113375cb7c58b60854d3665222accfa', 'url': 'https://acropol-geo.ru/assets/manager/images/BLOG/O-tovarax/SCENE_71/E1807_SCENE_7.1_User_Manual_EN.pdf', 'short_snippet': 'SCENE 6.0 User Manual', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 241/345
+Splitting to columns
+{'md5': 'da989403fc74dce8511695e924bbe147', 'url': 'https://www.clickatlife.gr/culture/story/100298', 'short_snippet': 'Τι κοινό μπορεί να έχει η Ομόνοια με τη μακρινή Φουκοσίμα - clickatlife', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 242/345
+Splitting to columns
+{'md5': 'c2f66b20b0a47bc09e03ed2963a9c20f', 'url': 'https://www.acropolrd.com/director-de-la-policia-favorece-extension-toque-de-queda-y-el-que-le-rompa-un-cristal-a-una-camioneta-va-preso-y-lo-paga/', 'short_snippet': 'Director de La Policía favorece extensión Toque de Queda, y el ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 243/345
+Splitting to columns
+{'md5': 'edc484fea1216c34ad00170caf589ff4', 'url': 'https://www.si-drive.eu/wp-content/uploads/2017/03/SI-DRIVE-Deliverable-D7_3-Energy-1.pdf', 'short_snippet': 'SOCIAL INNOVATION IN ENERGY SUPPLY: CASE STUDY RESULTS', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 244/345
+Splitting to columns
+{'md5': 'c67e495e82f400f4d9e68f5d7c90e0f9', 'url': 'http://nachbarschaftshilfe-tennenlohe.de/660134.html', 'short_snippet': 'Adi l grup sence konutlari', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 245/345
+Splitting to columns
+{'md5': '3a6c84fe5b5c5f7218efd5cfbe04c888', 'url': 'https://prensaygente.com/2022/02/07/el-futuro-del-prm/', 'short_snippet': 'El futuro del PRM. – Prensa y Gente', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 246/345
+Splitting to columns
+{'md5': '69e00495bf2b5c67d427ea949f44aa7e', 'url': 'https://www.theceo.gr/vrown-hotels-meta-to-acropol-hotel-anigi-to-deftero-xenodochio-sti-veranzerou/', 'short_snippet': 'Βrown Hotels: Μετά το Acropol Hotel ανοίγει το δεύτερο ξενοδοχείο στη ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 247/345
+Splitting to columns
+{'md5': '4b9b7b03cdeb4e851b07d97e984617e5', 'url': 'https://www.linguee.com/english-french/translation/automated+protection.html', 'short_snippet': 'automated protection - French translation – Linguee', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 248/345
+Splitting to columns
+{'md5': '2bbd550f76fccd57e9d029eec668abe7', 'url': 'https://moovitapp.com/index/pl/transport_publiczny-Spedycja_i_Transport_ACROPOL-Toru%C5%84-site_148444957-3815', 'short_snippet': 'Spedycja i Transport ACROPOL w Toruń City (Autobus lub Tramwaj)', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 249/345
+Splitting to columns
+{'md5': 'f30d0353c9644e14e8c7b4776d187503', 'url': 'http://acropol.biz.sitetech.tips/', 'short_snippet': 'acropol.biz - Hotel Acropol, Parga | ÎžÎµÎ½Î¿Î´Î¿Ï‡ÎµÎ¯Î¿ Acropol, Î Î¬Ï Î³Î±', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 250/345
+Splitting to columns
+{'md5': 'c8013c7f045f2ed82309d9c3f8bc7700', 'url': 'https://es.linkedin.com/company/iberlogistica-de-transportes-lucentum-sl', 'short_snippet': 'IBERLOGISTICA DE TTESS LUCENTUM SLU | LinkedIn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 251/345
+Splitting to columns
+{'md5': '3056fb7d9e6fe4b37ab7e46cd87525e9', 'url': 'http://acropol.lk/changelog/', 'short_snippet': 'Changelog | ACROPOL.LK', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 252/345
+Splitting to columns
+{'md5': '660a32d623e78a3558c3a00a968d596c', 'url': 'https://www.muratyetimbcs.com/www/acropol.pl.html', 'short_snippet': 'acropol.pl - Spedycja i Transport Acropol | Smoothy is free HTML5 ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 253/345
+Splitting to columns
+{'md5': '66adabfe491096f092c72a0dd0d2acd1', 'url': 'https://parga.net/hotel_facilities/parking/', 'short_snippet': 'Parking – Parga Net - Hotel Facilities', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 254/345
+Splitting to columns
+{'md5': '8cd26999aeaaae1b44abe40c39b51958', 'url': 'http://www.palo.com.cy/a/acropol-cinema-burned-to-the-ground-71449', 'short_snippet': 'Acropol cinema burned to the ground | palo.com.cy', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 255/345
+Splitting to columns
+{'md5': '01138c9cff4ddbbbaffc3a3959ef6bd3', 'url': 'https://gagadget.com/meta/3702-pozdravlyaem-pobeditelya-konkursa-ya-i-moya-mashina-amp/', 'short_snippet': 'Поздравляем победителя конкурса "Я и моя машина"! | gagadget.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 256/345
+Splitting to columns
+{'md5': '417d2c3905581b43aaa98d05ed4a1f3d', 'url': 'https://www.redfin.com/FL/Largo/3209-Meta-Ct-33771/home/48242948', 'short_snippet': '3209 Meta Ct, LARGO, FL 33771 | MLS# U8127891 | Redfin', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 257/345
+Splitting to columns
+{'md5': '2d5ae2926d8362c0bb979ecf230e9e25', 'url': 'http://www.mdcc.gob.pe/wp-content/uploads/2020/10/Acta-de-la-octava-sesion-ordinaria-2019.pdf', 'short_snippet': 'Acta de la 8va. Sesión Ordinaria 2019 - municipalidad Distrital de Cerro ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 258/345
+Splitting to columns
+{'md5': '18ec1737e7912dd31e00b5d8b54fdfe9', 'url': 'https://www.todopolicia.com/foro/threads/academia-acrapol.12940/page-2', 'short_snippet': 'Academia Acrapol| Página 2 - Todopolicia.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 259/345
+Splitting to columns
+{'md5': '873707546c80326056854cddc615e428', 'url': 'http://moradaarquitectura.com/hqr7h/lspdfr-pranger-els.html', 'short_snippet': 'CN', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 260/345
+Splitting to columns
+{'md5': '83bc01f9c67de6680e176af716207f01', 'url': 'https://books.google.hn/books?id=WpBwPwIiUlsC&pg=PA723&lpg=PA723&dq=acropol++meta&source=bl&ots=Bhc2wTekc-&sig=ACfU3U1qXTJbJPN6CtKGTxNwstFp9Xjc-Q&hl=en&sa=X&ved=2ahUKEwj_zJPEufb3AhWkhIkEHcIkD3YQ6AF6BQjPARAC', 'short_snippet': 'Nikephorou tou Gregora Rhomaike historia. Nicephori Gregorae ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 261/345
+Splitting to columns
+{'md5': 'be0fcc2faa6c559be596e7a4c66f1766', 'url': 'https://blog.es.privalia.com/concurso-munich-your-way-develaremos-10-ganadores/', 'short_snippet': 'Concurso MUNICH Your Way. ¡Mañana desvelaremos a los 10 ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 262/345
+Splitting to columns
+{'md5': 'c0ee8d465014759d39c9bb6598b4216d', 'url': 'https://www.expedia.co.uk/Meta-Station-Hotels.d6346900.Travel-Guide-Hotels', 'short_snippet': 'Compare hotels in Meta Station and book | Expedia', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 263/345
+Splitting to columns
+{'md5': 'fa5da5a09aa53f65f9f8c855fec261a9', 'url': 'https://www.insider.gr/eidiseis/184772/epipleon-imerominies-dianyktereysis-nea-katalymata-gia-toys-pyropliktoys-apo-gianni?amp', 'short_snippet': 'Επιπλέον ημερομηνίες διανυκτέρευσης &amp; νέα καταλύματα για τους ... - Insider', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 264/345
+Splitting to columns
+{'md5': '623f15f43100d8987063d642487ffaf1', 'url': 'https://books.google.hn/books?id=RH9cAAAAcAAJ&pg=RA2-PA4&lpg=RA2-PA4&dq=acropol++meta&source=bl&ots=8seJyjy1oK&sig=ACfU3U35p1PoybFB67CuG0v9n2csAAXKqg&hl=en&sa=X&ved=2ahUKEwj_zJPEufb3AhWkhIkEHcIkD3YQ6AF6BQjQARAC', 'short_snippet': 'De Byzantinae historiae scriptoribus', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 265/345
+Splitting to columns
+{'md5': '64c62c6c2167baecda00d2b232410f4f', 'url': 'https://www.vmray.com/analyses/333f165751f0/report/vti_score.html', 'short_snippet': '333f1657...10a2 | VTI - VMRay', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 266/345
+Splitting to columns
+{'md5': '439c25f34e69f3e1009fae9f9ac0c02c', 'url': 'https://en.m.wikipedia.org/wiki/List_of_radio_stations_in_Greece', 'short_snippet': 'List of radio stations in Greece - Wikipedia', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 267/345
+Splitting to columns
+{'md5': '47a1daa97feb25fa5101eb93fb95b8ea', 'url': 'https://empresite.eleconomistaamerica.co/Actividad/SECURITY/departamento/BOYACA/', 'short_snippet': 'Security en BOYACA - Empresite Colombia', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 268/345
+Splitting to columns
+{'md5': 'd397b9c2b83f44a5e6d4bb0aa174eba2', 'url': 'https://acropolhotel.com/site-kullanimi', 'short_snippet': 'Site Kullanımı - Acropol Suites', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 269/345
+Splitting to columns
+{'md5': '92622d20c8b96c276a2d8f15b33faa8c', 'url': 'https://thetotalbusiness.com/2022/02/23/to-orama-enos-israilhnou-na-kanei-tin-omonoia-diethni-touristiko-proorismo/', 'short_snippet': 'Το όραμα ενός Ισραηλινού να κάνει την Ομόνοια διεθνή τουριστικό ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 270/345
+Splitting to columns
+{'md5': '12c471faf440ea0493a7cd8bfc35c343', 'url': 'https://www.trivago.it/mithimna---molivos-89150/hotel-spiaggia', 'short_snippet': 'I migliori hotel spiaggia a Mithimna - Molivos, Grecia - Trivago', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 271/345
+Splitting to columns
+{'md5': '01c3df1049c6bdfcff11ded75c6e3372', 'url': 'https://www.priceline.com/relax/at/112971103/rooms/1?meta-id=YGrW-dWCLG61CHyOY9RDAHdcomiNhjCRXzILfBzI1imf6WSkQEYUk4xeTQmaWONOJrHYoFyh40vjUGGSkVVDv1hCDzq4uE5Fe7Z8HpSY_tdUwK20T95MDlcy-l3PfeaGCoWrUixtGPPLdm8TRXGsKCToPllbJptLLRKS25ArvAtQ8XSl_ETk5JLVH7lVs4TpPwzX5L2Eb8YUdooG9GO3a7GbVIZCd5SYDYGbkEtJb9ZV0AhGdvxdkehxJbDrZGVsNKIvhX4QMD423dRB6x_5e6UY-ecjof_6ua2f5Zy7KyY&pclnId=6A061F6FD0AF8D39D97CB3F04AE3739B100613A7076B70F7800B2740698E1207&cityId=3000035889&cur=EUR&qdp=83', 'short_snippet': 'Brown Acropol, a member of Brown Hotels - Priceline.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 272/345
+Splitting to columns
+{'md5': '923120ac6aee1da00b4b586349dfc1a5', 'url': 'https://books.google.hn/books?id=ravZ28YvjnIC&pg=PA723&lpg=PA723&dq=acropol++meta&source=bl&ots=fzW2mFhnFf&sig=ACfU3U2t_IdlEwbnLoNcmaOdw0lTJXe1aw&hl=en&sa=X&ved=2ahUKEwj_zJPEufb3AhWkhIkEHcIkD3YQ6AF6BQjOARAC', 'short_snippet': 'Nikephorou tou Gregora Rhomaike historia', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 273/345
+Splitting to columns
+{'md5': '8ea1e0443ac178a9451b2cd9dd23b536', 'url': 'https://www.teamcelliott.com/', 'short_snippet': "On the Shores of Lake Malaria – Team Celliott's Africa AdventureOn the ...", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 274/345
+Splitting to columns
+{'md5': '0da943e8274680918d78bafc57712bd9', 'url': 'http://balkanhobby.com/index.php?route=product/category&path=297', 'short_snippet': 'Mistercraft - Papir Color', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 275/345
+Splitting to columns
+{'md5': '73aff8d976ed2ec7057a9b1ab4bb7742', 'url': 'https://link.springer.com/content/pdf/bbm%3A978-3-8349-6169-3%2F1.pdf', 'short_snippet': 'bbm:978-3-8349-6169-3/1.pdf', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 276/345
+Splitting to columns
+{'md5': '27fbf4221b5bd627a5bcf091a4f22572', 'url': 'https://www.bucaramanga.gov.co/wp-content/uploads/2021/05/INFORME-DE-GESTION-A-SEP-2018-SECRETARIA-ADMINISTRATIVA.pdf', 'short_snippet': 'SECRETARÍA ADMINISTRATIVA - Alcaldía de Bucaramanga', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 277/345
+Splitting to columns
+{'md5': 'a2abf4463d4a614f5189d85e2c28dfbf', 'url': 'https://news.gtp.gr/2019/10/16/brown-hotels-expands-greece-reopens-acropol-hotel-athens/', 'short_snippet': 'Brown Hotels Expands to Greece, Reopens Acropol Hotel in Athens', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 278/345
+Splitting to columns
+{'md5': 'b9917d45d0fbf347651a141eda87ab31', 'url': 'https://www.goalinn.com/football/munich-acropol-354/136125012/p', 'short_snippet': 'Munich Acropol 354 Trainers Black | Goalinn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 279/345
+Splitting to columns
+{'md5': '552a2fb1d35565e8b82942544ccd2d0d', 'url': 'https://www.odoo.com/customers/country/egypt-64/page/2', 'short_snippet': 'Our References | Odoo', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 280/345
+Splitting to columns
+{'md5': 'c56d34dffde4d3378e3de0f9cd9b4dfd', 'url': 'https://www.zoominfo.com/c/acropol-interiors-llc/403371541', 'short_snippet': 'ACROPOL Interiors - Overview, News &amp; Competitors | ZoomInfo.com', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 281/345
+Splitting to columns
+{'md5': '4f16ca61e58f623120721511b6f99c09', 'url': 'https://www.tradeinn.com/goalinn/en/munich-acropol-180-trainers/136124859/p', 'short_snippet': 'Munich Acropol 180 Trainers | Goalinn - Tradeinn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 282/345
+Splitting to columns
+{'md5': '28b8737944bcc3dba467e8b0406d9e28', 'url': 'https://books.google.hn/books?id=ggkqDwAAQBAJ&pg=PT183&lpg=PT183&dq=acropol++retail&source=bl&ots=kOb9NC9M2a&sig=ACfU3U0J2gMiYIRrIaUlks3dfAnb2FsNdA&hl=en&sa=X&ved=2ahUKEwi0jZ70ufb3AhVwjYkEHfsUCrgQ6AF6BQjPARAC', 'short_snippet': 'Performing Cultural Tourism: Communities, Tourists and Creative ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 283/345
+Splitting to columns
+{'md5': '756cc9fc99dd7693f8a8048e24fe146c', 'url': 'https://books.google.hn/books?id=UQgEAAAAMBAJ&pg=PA54&lpg=PA54&dq=acropol++retail&source=bl&ots=98T5pbOhxC&sig=ACfU3U2dEgjZJviAXw2kxWoT-NbGHT37jw&hl=en&sa=X&ved=2ahUKEwi0jZ70ufb3AhVwjYkEHfsUCrgQ6AF6BQjRARAC', 'short_snippet': 'Billboard', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 284/345
+Splitting to columns
+{'md5': '5e4726cfb8c27566900b06eac52cbf41', 'url': 'https://www.groupon.com/biz/vancouver-bc/acropol-greek-restaurant-1', 'short_snippet': 'Acropol Greek Restaurant - Vancouver, BC | Groupon', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 285/345
+Splitting to columns
+{'md5': 'ab1115554949dc3e6922f5fc28b6c25b', 'url': 'https://www.centralchamber.biz/the-chamber/business-directory', 'short_snippet': 'Business Directory - Central Pinellas Chamber', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 286/345
+Splitting to columns
+{'md5': '9333ed5d0a8e1ccadc94104ebe776dce', 'url': 'https://www.carousell.sg/p/acropol-plates-5-pcs-1069512062/', 'short_snippet': 'Acropol plates (5 pcs) - Other Kitchenware &amp; Tableware - Carousell', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 287/345
+Splitting to columns
+{'md5': '8ff6cfbeadacaa68b1cfd002f56187ad', 'url': 'https://www.hoodstarter.com/s/748-grand-ave-old-acropol-inn', 'short_snippet': '748 Grand Ave (old Acropol Inn) - Hoodstarter', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 288/345
+Splitting to columns
+{'md5': '431623b5fca6a4e1ee93bff09320975d', 'url': 'https://yellow.co.tz/search-results?what=New%20Hardware%20Stores%20Limited&where=Unknown', 'short_snippet': 'New Hardware Stores Limited in Unknown | Yellow Tanzania', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 289/345
+Splitting to columns
+{'md5': '30eed9ae55d3ff1abd1c6c5b6093b3dc', 'url': 'https://www.rli.uk.com/brown-hotels-launches-in-greece/amp/', 'short_snippet': 'Brown Hotels Launches in Greece | Retail &amp; Leisure International', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 290/345
+Splitting to columns
+{'md5': '59633a6617e69034c15093167a9f5e81', 'url': 'https://www.b2byellowpages.com/company-information/666538-acropol-inn-restaurant.html', 'short_snippet': 'Acropol Inn Restaurant | Saint Paul, MN 55105 | 651-298-0151', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 291/345
+Splitting to columns
+{'md5': 'e5101e7f6fdf60ffce73415a8c12fa6c', 'url': 'http://www.nzdl.org/gsdlmod?e=d-00000-00---off-0hdl--00-0----0-10-0---0---0direct-10---4-------0-0l--11-en-50---20-help---00-0-1-00-0--4----0-0-11-10-0utfZz-8-00&cl=CL2.21.5&d=HASH05930481a9804a3ba0dd4a.11&gt=0', 'short_snippet': 'Stabilizers and Mortars (for compressed earth blocks)', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 292/345
+Splitting to columns
+{'md5': '3b5f792172bea943e492f1f08c4cfbaf', 'url': 'https://fbc.co.zw/banking/banking/service-locator?field_type_tid=All&field_lbranch_tid=All&page=60', 'short_snippet': 'Service Locator | Page 61 | FBC Banking', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 293/345
+Splitting to columns
+{'md5': '0c39cf993ec9522b9f6628e560b16c46', 'url': 'https://www.instagram.com/elegant_bakeware/', 'short_snippet': '@elegant_bakeware • Instagram photos and videos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 294/345
+Splitting to columns
+{'md5': '5d73083df03f762ebe7ee70537bf9b5a', 'url': 'https://russoft.org/en/news/yandex-and-tinkoff-announce-fintech-acquisitions/', 'short_snippet': 'Yandex and Tinkoff announce fintech acquisitions • RUSSOFT', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 295/345
+Splitting to columns
+{'md5': '775ec02708685ba25c0ed964b860bc87', 'url': 'https://opengovus.com/florida-license/4006-6209372', 'short_snippet': 'Acropol Family Restaurants Inc · 1170 Starkey Rd, Largo, FL 33771', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 296/345
+Splitting to columns
+{'md5': 'cbbb7a5f4417d97162ece157a5562375', 'url': 'http://acropol-pitsidia.com/', 'short_snippet': 'online philippine casino no deposit', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 297/345
+Splitting to columns
+{'md5': 'adde25c945c3abc653aef3c74074ac77', 'url': 'https://books.google.hn/books?id=1X5KDwAAQBAJ&pg=PT122&lpg=PT122&dq=acropol++retail&source=bl&ots=rgUkEyepxN&sig=ACfU3U1MUMEpQDWQzPzMv68v8oYjptVG7Q&hl=en&sa=X&ved=2ahUKEwi0jZ70ufb3AhVwjYkEHfsUCrgQ6AF6BQjSARAC', 'short_snippet': 'Heritage and the Olympics: People, Place and Performance', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 298/345
+Splitting to columns
+{'md5': '94064953ad2006600c87e8f4140ece2f', 'url': 'https://www.yumpu.com/en/document/view/55650018/acropol-company-profile', 'short_snippet': 'Acropol Company Profile - Yumpu', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 299/345
+Splitting to columns
+{'md5': '9c06ebf69463947121e9e0cb21780011', 'url': 'https://www.hotwire.com/Athens-Hotels-Acropol-Hotel.h14923284.Hotel-Information', 'short_snippet': 'Room Deals for Acropol Hotel, Athens starting at $69 | Hotwire', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 300/345
+Splitting to columns
+{'md5': 'd007642f6e9e4666d2e5bb568b567a4a', 'url': 'https://tadviser.com/index.php/Person:Davydovich_Evgeny_Vladimirovich', 'short_snippet': 'Davydovich Evgeny Vladimirovich - TAdviser', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 301/345
+Splitting to columns
+{'md5': '06924fa0c866766062a38019c9ac6947', 'url': 'https://www.tradeinn.com/goalinn/en/munich-acropol-349-trainers/136125007/p', 'short_snippet': 'Munich Acropol 349 Trainers | Goalinn - Tradeinn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 302/345
+Splitting to columns
+{'md5': '3a8962b29157e6338fbdba9bb2f83e14', 'url': 'https://nmarchives-dev.unm.edu/repositories/22/archival_objects/300817', 'short_snippet': 'Acropol Restaurant, 1963 | - The University of New Mexico', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 303/345
+Splitting to columns
+{'md5': '19f745b97800cfe0a1f4a8bd4bb5fc21', 'url': 'https://www.acropoluae.com/filling_station.php', 'short_snippet': 'Filling Station – Retail Projects - Acropol Interiors LLC', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 304/345
+Splitting to columns
+{'md5': '61fa64172f1c59da75c3a611ee3cc73d', 'url': 'https://techgraph.co/business/yandex-acquires-acropol-bank-for-14-7-million/', 'short_snippet': 'Yandex Acquires Acropol Bank For $14.7 Million - TechGraph', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 305/345
+Splitting to columns
+{'md5': 'e19d67579386f344a1bc26f8bc566583', 'url': 'https://plus.investera.com/company/Acropol-Interiors-LLC', 'short_snippet': 'Acropol Interiors L.L.C - Investera Plus Profile', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 306/345
+Splitting to columns
+{'md5': 'b964f3e1db235c4d79178abf3b911a80', 'url': 'https://trade.nosis.com/en/SAUNA-ACROPOLE-LTDA-EPP/3246638/315/p', 'short_snippet': '3246638 - sauna acropole ltda epp - Trade Nosis', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 307/345
+Splitting to columns
+{'md5': '9d4b36e2eb1dcac9739936c22344ece3', 'url': 'https://m.youtube.com/watch?v=_WYaYz1AEao', 'short_snippet': 'Pergamon Acropol Ancient City - Turkey Bergama Akropolü - YouTube', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 308/345
+Splitting to columns
+{'md5': 'ce5bd35f23c0866cb7481e1758d13f8a', 'url': 'https://opendatatoronto.com/business/B50-3109293', 'short_snippet': 'Acropol Bakery · 904988 Ontario Ltd · 713 Danforth Ave, 2022-04-15 ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 309/345
+Splitting to columns
+{'md5': 'c417791b1fad382dbc107b730fb2147b', 'url': 'https://www.efma.com/article/15482-yandex-announces-acquisition-of-a-bank-to-obtain-a-license', 'short_snippet': 'Yandex announces acquisition of a bank to obtain a license - Efma', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 310/345
+Splitting to columns
+{'md5': '10d5c6b14dde4eeeb52ca1741ee426ce', 'url': 'https://www.bthetravelbrand.com/hotel/glk-premier-acropol-suites-spa-estambul', 'short_snippet': 'Hotel GLK PREMIER Acropol Suites &amp; Spa - B travel', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 311/345
+Splitting to columns
+{'md5': 'd3141d27b09ecde2d2e61f7e772aa05c', 'url': 'https://m.facebook.com/acropol.bucaramanga/', 'short_snippet': 'Acropol Bucaramanga - Home | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 312/345
+Splitting to columns
+{'md5': 'bf6c6661669999e8b88417ca6b96d261', 'url': 'https://m.facebook.com/F%C4%B1rad-ayakkab%C4%B1-acropol-218474684833966/', 'short_snippet': 'Fırad ayakkabı acropol - Home | Facebook', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 313/345
+Splitting to columns
+{'md5': '4bd1fa0fca056ef1598f43fd47ec984f', 'url': 'https://www.hotelscombined.com.au/Hotel/GLK_Premier_Acropol_Suites_Spa.htm', 'short_snippet': 'Glk Premier Acropol Suites &amp; Spa, Istanbul, Turkey - Compare Deals', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 314/345
+Splitting to columns
+{'md5': '69bdf70f6ba7c43f07cf9ec5ef108bde', 'url': 'https://www.trivago.no/nb/opr/hotell-n%C3%A6r-istanbul-retail-fair?search=500-2693154', 'short_snippet': 'Hoteller i Istanbul, Tyrkia nær ISTANBUL RETAIL FAIR - Trivago', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 315/345
+Splitting to columns
+{'md5': 'c4557daef162a4e3ddf97af1ebfc2163', 'url': 'https://opengovca.com/vancouver-business/98-182924', 'short_snippet': 'Acropol Restaurant 1975 Ltd · 2946 W Broadway, Vancouver, BC V6K 2G8', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 316/345
+Splitting to columns
+{'md5': '471b3ec39f30573a50d88e5eb7e43d06', 'url': 'https://hospitalitydesign.com/news/hotels-resorts/dave-red-athens/', 'short_snippet': 'Brown Hotels Unveils DAVE Red Athens - Hospitality Design', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 317/345
+Splitting to columns
+{'md5': '1dcc16fcb22d20e3c994988862257c20', 'url': 'https://www.canadianrestaurants.org/company-acropol-greek-restaurant-in-vancouver-46740?amp', 'short_snippet': 'Acropol Greek Restaurant | Vancouver | Canada', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 318/345
+Splitting to columns
+{'md5': '10cc6b9a7b2ab6aa75276f0c4452be15', 'url': 'https://www.monstergulf.com/acropol-interiors-l-l-c-93584-jobs-careers.html', 'short_snippet': 'Acropol Interiors LLC Careers (2021) - Current Job Openings', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 319/345
+Splitting to columns
+{'md5': 'a3c4e0fcedb1668ce25c4370c6bdc53e', 'url': 'https://roussetos.gr/en/projects/', 'short_snippet': 'Projects - Roussetos', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 320/345
+Splitting to columns
+{'md5': '184644abe3bc8950c8333739f5d1f2ea', 'url': 'https://books.google.hn/books?id=6jueFU4oSHAC&pg=PA507&lpg=PA507&dq=acropol++retail&source=bl&ots=ugVfmJIq4k&sig=ACfU3U1P_juKxoYZhbibSPbAHByCskBPUA&hl=en&sa=X&ved=2ahUKEwi0jZ70ufb3AhVwjYkEHfsUCrgQ6AF6BQjTARAC', 'short_snippet': 'Europe Real Estate Yearbook 2007', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 321/345
+Splitting to columns
+{'md5': '6228310af8fd79c05f76da71cf0ea4a0', 'url': 'https://www.dressinn.com/moda/munich-acropol-347/136125005/p', 'short_snippet': 'Munich Zapatillas Acropol 347 - Dressinn | Tienda online de moda ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 322/345
+Splitting to columns
+{'md5': 'de89fa1d95c5949cb91ef8bdb260a36c', 'url': 'http://ontop.lk/acropol-restaurant-colombo/', 'short_snippet': 'Acropol Restaurant Colombo | Ontop.lk', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 323/345
+Splitting to columns
+{'md5': '0486e9d6e50236502f33a5a28bd9b67f', 'url': 'https://interfax.com/newsroom/top-stories/71696/', 'short_snippet': 'Yandex agrees to buy Acropol bank for 1.1 bln rubles to obtain ... - Interfax', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 324/345
+Splitting to columns
+{'md5': 'b356f8a6082a78649a70f61d47a0f266', 'url': 'https://b2bhint.com/en/company/be/acropol-aalter--0460909455', 'short_snippet': 'Acropol Aalter - 0460909455 - Belgium - B2BHint', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 325/345
+Splitting to columns
+{'md5': 'fa25d0efb872cf9faf1663958122b200', 'url': 'https://trendstop.knack.be/en/detail/404282538/acropol.aspx', 'short_snippet': 'Acropol NV - BE 0404.282.538 - Landen (3400) - Trends Top', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 326/345
+Splitting to columns
+{'md5': 'aee2361419da0fe0f9e3886399f71424', 'url': 'https://yellow.place/en/acropol-restaurant-maldives-male-maldives', 'short_snippet': 'Acropol Restaurant Maldives - Male - Yellow.Place', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 327/345
+Splitting to columns
+{'md5': '5ec4c4338fef01363dd8287e5b3217d4', 'url': 'https://www.businessnews.gr/epixeiriseis/item/188202-synergasia-tis-yalco-me-to-brown-acropol-by-brown-hotels-collection', 'short_snippet': 'Συνεργασία της ΥALCO με το Brown Acropol by Brown Hotels Collection', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 328/345
+Splitting to columns
+{'md5': '1e7ae8c16e048f2ea6379c6ee0f93047', 'url': 'https://www.benzinga.com/amp/content/20856533', 'short_snippet': 'Yandex Targets $14.7M Acropol Bank Acquisition For Banking License', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 329/345
+Splitting to columns
+{'md5': 'aea71f831d1eaeb2120fdb7ea71b18a0', 'url': 'https://be.linkedin.com/in/fr%C3%A9d%C3%A9ric-gavage-28b42316b', 'short_snippet': 'Frédéric gavage - Manager depot - ACROPOL | LinkedIn', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 330/345
+Splitting to columns
+{'md5': 'ae17500119de7d2e7439f718322cd5e7', 'url': 'https://www.medpages.info/sf/index.php?page=organisation&orgcode=272889', 'short_snippet': "Tee's Pharmacy - Zvishavane - Medpages", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 331/345
+Splitting to columns
+{'md5': '0d3d1b6075b02eaa3263415c9ee4925a', 'url': 'https://rainbowpages.lk/search.php?page=167&s=Po&l=&', 'short_snippet': 'Po - Listings Search - Page 167 - Sri Lanka Telecom Rainbowpages', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 332/345
+Splitting to columns
+{'md5': '29dd0dd3bef907fcd51da73b5c1e46a2', 'url': 'https://www.travelagewest.com/Travel/Europe/istanbul-turkey-travel-guide', 'short_snippet': 'Istanbul Turkey Travel Guide for 2022 | TravelAge West', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 333/345
+Splitting to columns
+{'md5': 'a1f3cb240f6ef31623aab85206d2ca7b', 'url': 'https://www.veolia.com/sites/g/files/dvc4206/files/document/2021/04/veolia-annual-financial-report-urd-2020.pdf', 'short_snippet': 'UNIVERSAL REGISTRATION DOCUMENT 2020 - Veolia', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 334/345
+Splitting to columns
+{'md5': '6eb4a39b683fbd379f5544a6a8f25ec5', 'url': 'https://www.expedia-aarp.com/Istanbul-Hotels-GLK-PREMIER-Acropol-Suites-Spa.h903317.Hotel-Information', 'short_snippet': 'GLK PREMIER Acropol Suites &amp; Spa: 2022 Room Prices, Deals ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 335/345
+Splitting to columns
+{'md5': 'b1d55909a592e5161b8622428d17b045', 'url': 'https://www.retailbankerinternational.com/news/russia-yandex-acquire-acropol-bank/', 'short_snippet': "Russia's Yandex signs deal to acquire Acropol Bank - Retail Banker ...", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 336/345
+Splitting to columns
+{'md5': '32fb1df1c7324ba0842ff19e4243a868', 'url': 'https://www.hospitalitynet.org/announcement/41000643.html', 'short_snippet': 'Brown Hotels Announces Affordable Urban Concept the Dave', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 337/345
+Splitting to columns
+{'md5': '23b0b46bd102f3421c1218080fc13bba', 'url': 'https://ec.europa.eu/docsroom/documents/10475/attachments/1/translations/en/renditions/native', 'short_snippet': 'Study on the industrial implications in Europe of the blurring of dividing ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 338/345
+Splitting to columns
+{'md5': 'afeff71af334f9539631cd66e920fa9f', 'url': 'https://mobile.niceday.com.cy/', 'short_snippet': 'Oldest first - Nice Day Developments', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 339/345
+Splitting to columns
+{'md5': '154423019b93fc4ad9a0192d7f034c5e', 'url': 'https://www.hospitalityinsights.com/content/how-israel-s-brown-hotels-expanding-westwards-across-europe', 'short_snippet': "How Israel's Brown Hotels is expanding westwards across Europe", 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 340/345
+Splitting to columns
+{'md5': '1fb6b7d1126836904ae7262e7ad13f0a', 'url': 'https://www.ebay.co.uk/p/16034369252', 'short_snippet': 'Plastic Kit Mistercraft 1 72 Ah-64a Acropol Apache for sale online ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 341/345
+Splitting to columns
+{'md5': '3e9422b690b8b81b2b8aa87d2ab4f0da', 'url': 'https://ae.kompass.com/c/acropol-interiors-llc/ae800447/', 'short_snippet': 'Acropol Interiors Llc, Barsha Heights Icon Tower... - kompass uae', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 342/345
+Splitting to columns
+{'md5': '9264ed72ffb86605c05b33e0cdce9e44', 'url': 'https://bizness.gr/to-acropol-to-proto-xenodocheio-poy-leitoyrgei-stin-ellada-i-brown-hotels/amp/', 'short_snippet': 'Το Acropol το πρώτο ξενοδοχείο που λειτουργεί στην Ελλάδα η Brown ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 343/345
+Splitting to columns
+{'md5': 'd33987a13d27487b23814e60ad4f5f83', 'url': 'https://www.cbinsights.com/company/acropol', 'short_snippet': 'Acropol - Headquarter Locations, Competitors, Financials, Employees', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 344/345
+Splitting to columns
+{'md5': '5976d578e3362d56c589602661eec723', 'url': 'https://www.alamy.com/stock-photo-vilnius-lithuania-july-08-2016-the-enterance-to-hm-store-with-summer-122421035.html', 'short_snippet': 'July 08, 2016: The Enterance To H&amp;M Store With Summer Collection Of ...', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to
+Reading line 345/345
+Splitting to columns
+{'md5': 'bd6aea648856cdea6f3ec5a751a4831e', 'url': 'https://ae.locale.online/brothers-and-sisters-turbans-1368716967.html', 'short_snippet': 'Brothers and Sisters turbans | Shopping/retail | Dubai', 'long_snippet': 'None'}
+Getting row index
+Getting target column value
+Looking up for words in target column
+Writing down finished md5 to

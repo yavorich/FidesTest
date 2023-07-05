@@ -1,0 +1,22 @@
+separator = "~fides_delim~"
+field = [ 2, 3,4]
+normalize = true
+extension = "weights"
+distance.default = 7
+
+[rule]
+mode = "E"
+text = "battery"
+weight = 1000
+
+[suffix.buy]
+weight = 1
+distance.default = 5
+
+[suffix.instagram]
+weight = 2
+distance.left = 13
+
+[suffix.aliexpress]
+weight = 10
+distance.right = 6

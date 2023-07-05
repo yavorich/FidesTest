@@ -1,0 +1,22 @@
+separator = "~fides_delim~"
+field = [1, 2, 3]
+normalize = true
+extension = "weights"
+distance.default = 7
+
+[rule]
+mode = "E"
+text = "flowers"
+weight = 1000
+
+[suffix.instagram]
+weight = 1
+distance.default = 5
+
+[suffix.facebook]
+weight = 2
+distance.left = 3
+
+[suffix.follower]
+weight = 10
+distance.right = 6
