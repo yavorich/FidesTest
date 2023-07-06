@@ -68,13 +68,13 @@ words_w_weights = {}
 with open(filepath_weights_csv) as f:
     reader = csv.reader(f, delimiter=',')
     for row in reader:
-        selector = row[0]
+        selector = row[0].lower()
         weight = row[1]
         is_word = row[2] == '1'
         if is_word:
-            words_w_weights[selector] = weight
+            words_w_weights[selector] = int(weight)
         else:
-            suffixes_w_weights[selector] = weight
+            suffixes_w_weights[selector] = int(weight)
         print(selector, weight, is_word)
 
 logging.info(f'Words: {words_w_weights}')
@@ -119,7 +119,7 @@ with open(input_file) as f:
         target_column_text = named_columns[column_to_search].lower()
 
         words_found = False
-        weight = 0
+        total_weight = 0
 
         logging.debug(f'Looking up for words in target column')
 
@@ -132,17 +132,16 @@ with open(input_file) as f:
             if search_mode == 'regex':
                 regex = re.compile(word)
             elif search_mode == 'words':
-                regex = re.compile(DELIMITES_RE + word.lower() + DELIMITES_RE)
+                regex = re.compile(DELIMITES_RE + word + DELIMITES_RE)
             else:
                 raise Exception(f'Unsupported seach mode: {search_mode}')
            
-            m = regex.match(target_column_text)
-
+            m = regex.search(target_column_text)
             if m:
                 logging.debug(f'Found word: {word}')
 
                 logging.debug(f'Adding it\'s weight')
-                weight += words_w_weights.get(word, 0)
+                total_weight += words_w_weights.get(word, 0)
 
                 words_before = re.split(DELIMITES_RE, target_column_text[:m.start()])[-suffix_max_padding:]
                 words_after = re.split(DELIMITES_RE, target_column_text[m.end():])[1:idx+suffix_max_padding]
@@ -151,11 +150,10 @@ with open(input_file) as f:
 
                 logging.debug(f'Potential suffixes:')
                 logging.debug(potential_suffixes)
-
                 logging.debug(f'Calculating weight')
-                weight += sum(
+                total_weight += sum(
                     map(lambda suffix: suffixes_w_weights.get(suffix, 0), 
-                        filter(lambda maybe_suff: maybe_suff in suffixes, potential_suffixes)
+                        filter(lambda maybe_suff: maybe_suff in suffixes_w_weights.keys(), potential_suffixes)
                     )
                 )
 
@@ -164,7 +162,7 @@ with open(input_file) as f:
         if words_found:
             logging.debug(f'As words have been matched -> adding an output line')
             with open(output_file, 'a') as f:
-                f.write(line.replace('\n', '') + separator + str(weight) + '\n')
+                f.write(line.replace('\n', '') + separator + str(total_weight) + '\n')
 
         logging.debug(f'Writing down finished md5 to')
         with open(progress_file, 'w') as f:
