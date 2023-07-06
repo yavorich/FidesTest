@@ -3,10 +3,9 @@ from pprint import pprint
 import logging
 import sys
 import os
-import csv
 import re
 
-from utils import read_config
+from utils import parse_config
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG, format='%(message)s')
 
@@ -14,27 +13,29 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('-i', '--input_file', required=True, help='input file')
-parser.add_argument('-o', '--output_file', required=True, help='output file')
-parser.add_argument('-s', '--search_config', required=True, help='seacrh config ini file')
+parser.add_argument('-o', '--output_file', default=os.path.join(SCRIPT_DIR, 'out.txt'), help='output file')
+parser.add_argument('-s', '--search_config', required=True, help='seacrh config file')
 parser.add_argument('-c', '--config', default=os.path.join(SCRIPT_DIR, 'config.ini'), help='config file')
-parser.add_argument('-w', '--weights', required=True, help='words/suffixes weights file')
+parser.add_argument('-t', '--type', default='new', help='old or new config type')
+parser.add_argument('-w', '--weights', help='words/suffixes weights file')
 parser.add_argument('-b', '--begin', help='start with specific input line')
 parser.add_argument('-p', '--progress_file', default=os.path.join(SCRIPT_DIR, '.last_success_md5.tmp.txt'), help='file for last succeffsully finsihed md5 record')
 
-args = parser.parse_args()
+input_args = parser.parse_args()
 
 logging.info('Parsing args')
 
-input_file = args.input_file
-output_file = args.output_file
-search_config = args.search_config
-config = args.config
-filepath_weights_csv = args.weights
-begin = args.begin
-progress_file = args.progress_file
+input_file = input_args.input_file
+output_file = input_args.output_file
+search_config = input_args.search_config
+config = input_args.config
+config_type = input_args.type
+filepath_weights_csv = input_args.weights
+begin = input_args.begin
+progress_file = input_args.progress_file
 
 logging.info('Command line args (including defaults):')
-logging.info(args)
+logging.info(input_args)
 
 logging.info('Check if input file exists (expected: true)')
 if not os.path.exists(input_file):
@@ -44,38 +45,19 @@ logging.info('Check if output file exists (expected: false)')
 if not os.path.exists(output_file):
     logging.warning(f'WARNING Output file exists - will be overwriten')
 
-logging.info('Parsing general config')
-config = read_config(config)
-
-separator = config.get('Input', 'separator')
-columns = [*map(lambda column: column.strip(), config.get('Input', 'columns').split(','))]
-index_column = config.get('Input', 'index_column')
-
-logging.info(f'Separator: {separator}; Columns: {columns}; Index column: {index_column}')
-
-logging.info('Parsing search config')
-search_config = read_config(search_config)
-
-suffix_max_padding = int(search_config.get('SearchFor', 'suffix_max_padding'))
-column_to_search = search_config.get('SearchFor', 'column_to_search')
-search_mode = search_config.get('SearchFor', 'search_mode')
-
-logging.info(f'suffix_max_padding: {suffix_max_padding}; column_to_search: {column_to_search}; search_mode: {search_mode}')
-
+args = parse_config(config, search_config, config_type, filepath_weights_csv)
 suffixes_w_weights = {}
 words_w_weights = {}
 
-with open(filepath_weights_csv) as f:
-    reader = csv.reader(f, delimiter=',')
-    for row in reader:
-        selector = row[0].lower()
-        weight = row[1]
-        is_word = row[2] == '1'
-        if is_word:
-            words_w_weights[selector] = int(weight)
-        else:
-            suffixes_w_weights[selector] = int(weight)
-        print(selector, weight, is_word)
+for row in args["weights"]:
+    selector = row[0].lower()
+    weight = row[1]
+    is_word = row[2] == '1'
+    if is_word:
+        words_w_weights[selector] = int(weight)
+    else:
+        suffixes_w_weights[selector] = int(weight)
+    print(selector, weight, is_word)
 
 logging.info(f'Words: {words_w_weights}')
 logging.info(f'Suffixes: {suffixes_w_weights}')
@@ -95,16 +77,16 @@ with open(input_file) as f:
         logging.info(f'Reading line {i+1}/{n_lines}')
 
         logging.debug(f'Splitting to columns')
-        raw_columns = line.split(separator)
+        raw_columns = line.split(args["separator"])
         named_columns = {}
 
-        for i, column_name in enumerate(columns):
+        for i, column_name in enumerate(args["columns"]):
             named_columns[column_name] = raw_columns[i]
 
         logging.debug(named_columns)
 
         logging.debug(f'Getting row index')
-        index = named_columns[index_column]
+        index = named_columns[args["index_column"]]
 
         if begin is not None and not begin_reached:
             logging.info(f'Skipping line {index}')
@@ -116,7 +98,7 @@ with open(input_file) as f:
 
         logging.debug(f'Getting target column value')
 
-        target_column_text = named_columns[column_to_search].lower()
+        target_column_text = named_columns[args["column_to_search"]].lower()
 
         words_found = False
         total_weight = 0
@@ -129,12 +111,12 @@ with open(input_file) as f:
             regex = '' 
             DELIMITES_RE = '[ .,;|"\']'
 
-            if search_mode == 'regex':
+            if args["search_mode"] == 'regex':
                 regex = re.compile(word)
-            elif search_mode == 'words':
+            elif args["search_mode"] == 'words':
                 regex = re.compile(DELIMITES_RE + word + DELIMITES_RE)
             else:
-                raise Exception(f'Unsupported seach mode: {search_mode}')
+                raise Exception(f'Unsupported seach mode: {args["search_mode"]}')
            
             m = regex.search(target_column_text)
             if m:
@@ -143,8 +125,8 @@ with open(input_file) as f:
                 logging.debug(f'Adding it\'s weight')
                 total_weight += words_w_weights.get(word, 0)
 
-                words_before = re.split(DELIMITES_RE, target_column_text[:m.start()])[-suffix_max_padding:]
-                words_after = re.split(DELIMITES_RE, target_column_text[m.end():])[1:idx+suffix_max_padding]
+                words_before = re.split(DELIMITES_RE, target_column_text[:m.start()])[-args["suffix_max_padding"]:]
+                words_after = re.split(DELIMITES_RE, target_column_text[m.end():])[1:idx+args["suffix_max_padding"]]
 
                 potential_suffixes = [*words_before, *words_after]
 
@@ -162,7 +144,7 @@ with open(input_file) as f:
         if words_found:
             logging.debug(f'As words have been matched -> adding an output line')
             with open(output_file, 'a') as f:
-                f.write(line.replace('\n', '') + separator + str(total_weight) + '\n')
+                f.write(line.replace('\n', '') + args["separator"] + str(total_weight) + '\n')
 
         logging.debug(f'Writing down finished md5 to')
         with open(progress_file, 'w') as f:
